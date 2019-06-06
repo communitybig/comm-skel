@@ -1,0 +1,12 @@
+[1]
+Description=krunner
+ignoregeometry=true
+ignoregeometryrule=2
+placement=Centered
+placementrule=2
+wmclass=krunner
+wmclasscomplete=false
+wmclassmatch=1
+
+[General]
+count=1

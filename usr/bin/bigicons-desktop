@@ -1,0 +1,22 @@
+#!/bin/sh
+
+. ~/.config/user-dirs.dirs
+
+echo '[Desktop Entry]
+Name[pt_BR]=Lixeira
+Name=Trash
+Exec=bigtrash
+Icon=user-trash-full
+Type=Application' > "$XDG_DESKTOP_DIR/trash.desktop"
+chmod +x "$XDG_DESKTOP_DIR/trash.desktop"
+
+
+echo '[Desktop Entry]
+Name=My files
+Name[pt]=Meus arquivos
+Exec=bighome
+Icon=system-file-manager
+Type=Application' > "$XDG_DESKTOP_DIR/home.desktop"
+chmod +x "$XDG_DESKTOP_DIR/home.desktop"
+
+rm -f ~/.config/autostart/icons.desktop

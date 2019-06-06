@@ -1,0 +1,6 @@
+if [ "$XDG_CURRENT_DESKTOP" = "LXQt" ]; then
+    pcmanfm-qt trash:///
+else
+    dolphin trash:///
+fi
+

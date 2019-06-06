@@ -1,0 +1,68 @@
+MenuBar=Enabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC0AAACEfwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAAAAAAAhEAAAA8AP////sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAQA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAABAD///8AAAADAAACdwAAALj8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACdwAAAAQA////AAABvQAAAhEAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+
+[CompactMode]
+FontWeight=50
+
+[Desktop Entry]
+DefaultProfile=Perfil 1.profile
+
+[DetailsMode]
+FontWeight=50
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+GlobalViewProps=true
+ShowToolTips=true
+Version=200
+ViewPropsTimestamp=2018,12,13,5,31,1
+
+[IconsMode]
+FontWeight=50
+IconSize=48
+PreviewSize=48
+
+[KPropertiesDialog]
+Height 960=490
+Height 964=504
+Height 969=393
+Width 1912=631
+Width 1920=448
+
+[MainWindow]
+Height 434=375
+Height 626=567
+Height 706=643
+Height 816=524
+Height 960=659
+Height 964=657
+Height 965=621
+Height 969=626
+Height 998=599
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC0AAACOvwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAAOAAAAjoAAAA8AP////sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAQA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAABAD///8AAAADAAADSgAAALj8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADSgAAAAQA////AAACwgAAAjoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1088=865
+Width 1360=1280
+Width 1880=696
+Width 1912=949
+Width 1920=892
+Width 640=640
+
+[Notification Messages]
+Nova abaNova abaCtrl+T=false
+
+[Open-with settings]
+CompletionMode=1
+History=gwenvi
+
+[PreviewSettings]
+Plugins=djvuthumbnail,fontthumbnail,ffmpegthumbs,audiothumbnail,comicbookthumbnail,kraorathumbnail,windowsexethumbnail,imagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,windowsimagethumbnail
+
+[SettingsDialog]
+Height 960=419
+Height 965=419
+Height 969=424
+Width 1912=713
+Width 1920=713

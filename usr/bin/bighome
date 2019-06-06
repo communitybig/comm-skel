@@ -1,0 +1,5 @@
+if [ "$XDG_CURRENT_DESKTOP" = "LXQt" ]; then
+    pcmanfm-qt $HOME
+else
+    dolphin $HOME
+fi

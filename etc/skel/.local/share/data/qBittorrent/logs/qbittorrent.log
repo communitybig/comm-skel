@@ -1,0 +1,38 @@
+(N) 2019-03-01T04:08:51 - qBittorrent v4.1.5 iniciado
+(I) 2019-03-01T04:08:52 - qBittorrent está tentando escutar em qualquer porta de interface: 8999
+(N) 2019-03-01T04:08:52 - ID do Peer:-qB4150-
+(N) 2019-03-01T04:08:52 - O usuário agente HTTP é 'qBittorrent/4.1.5'
+(I) 2019-03-01T04:08:52 - Suporte a DHT [LIGADO]
+(I) 2019-03-01T04:08:52 - Suporte para Descoberta de Peer Local [LIGADO]
+(I) 2019-03-01T04:08:52 - Suporte a PeX [LIGADO]
+(I) 2019-03-01T04:08:52 - Modo anônimo [DESLIGADO]
+(I) 2019-03-01T04:08:52 - Suporte a criptografia [LIGADO]
+(I) 2019-03-01T04:08:52 - Tracker embutido [DESLIGADO]
+(I) 2019-03-01T04:08:52 - Suporte a UPnp / NAT-PMP [LIG]
+(W) 2019-03-01T04:08:52 - Não foi possível carregar o banco de dados GeoIP. Motivo: No such file or directory
+(N) 2019-03-01T04:08:52 - Opções foram salvas com sucesso.
+(I) 2019-03-01T04:08:52 - O qBittorrent está escutando com sucesso na porta da interface ::: TCP/8999
+(I) 2019-03-01T04:08:52 - O qBittorrent está escutando com sucesso na porta da interface 0.0.0.0: TCP/8999
+(I) 2019-03-01T04:08:52 - O qBittorrent está escutando com sucesso na porta da interface 0.0.0.0: UDP/8999
+(I) 2019-03-01T04:08:53 - IP externo: 177.67.139.121
+(I) 2019-03-01T04:08:53 - Banco de dados GeoIP carregado. Tipo: GeoLite2-Country. Data de criação: ter fev 26 16:11:38 2019.
+(I) 2019-03-01T04:08:53 - Banco de dados GeoIP atualizado com sucesso.
+(I) 2019-03-01T04:09:06 - Suporte a UPnp / NAT-PMP [DESL]
+(N) 2019-03-01T04:58:09 - qBittorrent v4.1.5 iniciado
+(I) 2019-03-01T04:58:09 - qBittorrent está tentando escutar em qualquer porta de interface: 8999
+(N) 2019-03-01T04:58:09 - ID do Peer:-qB4150-
+(N) 2019-03-01T04:58:09 - O usuário agente HTTP é 'qBittorrent/4.1.5'
+(I) 2019-03-01T04:58:09 - Suporte a DHT [LIGADO]
+(I) 2019-03-01T04:58:09 - Suporte para Descoberta de Peer Local [LIGADO]
+(I) 2019-03-01T04:58:09 - Suporte a PeX [LIGADO]
+(I) 2019-03-01T04:58:09 - Modo anônimo [DESLIGADO]
+(I) 2019-03-01T04:58:09 - Suporte a criptografia [LIGADO]
+(I) 2019-03-01T04:58:09 - Tracker embutido [DESLIGADO]
+(I) 2019-03-01T04:58:09 - Suporte a UPnp / NAT-PMP [LIG]
+(I) 2019-03-01T04:58:09 - Banco de dados GeoIP carregado. Tipo: GeoLite2-Country. Data de criação: ter fev 26 16:11:38 2019.
+(N) 2019-03-01T04:58:09 - Opções foram salvas com sucesso.
+(I) 2019-03-01T04:58:09 - O qBittorrent está escutando com sucesso na porta da interface ::: TCP/8999
+(I) 2019-03-01T04:58:09 - O qBittorrent está escutando com sucesso na porta da interface 0.0.0.0: TCP/8999
+(I) 2019-03-01T04:58:09 - O qBittorrent está escutando com sucesso na porta da interface 0.0.0.0: UDP/8999
+(I) 2019-03-01T04:58:09 - IP externo: 177.67.139.121
+(I) 2019-03-01T04:58:51 - Python detectado, nome do executável: &quot;python3&quot;, versão: 3.7.2
