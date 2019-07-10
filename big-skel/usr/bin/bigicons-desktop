@@ -1,6 +1,21 @@
 #!/bin/sh
 
+
+CONTADOR=0
+while [  $CONTADOR -lt 120 ]; do
+
+    if [ -e "$HOME/.config/user-dirs.dirs" ]; then
+        CONTADOR=120
+    fi
+    let CONTADOR=CONTADOR+1; 
+done
+
+
+
+
 . ~/.config/user-dirs.dirs
+
+mkdir -p "$XDG_DESKTOP_DIR"
 
 echo '[Desktop Entry]
 Name[pt_BR]=Lixeira
