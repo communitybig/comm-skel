@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=88
+PreloadWeight=98
 
 [Containments][2][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
@@ -59,17 +59,8 @@ plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][20][Configuration]
 PreloadWeight=0
-localPath=
+localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
-
-[Containments][2][Applets][21]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][21][Configuration]
-PreloadWeight=0
-localPath=
-url=file:///usr/share/applications/firefox.desktop
 
 [Containments][2][Applets][25]
 immutability=1
@@ -83,11 +74,19 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][29][Configuration]
-localPath=
+localPath=/home/biglinux/.local/share/plasma_icons/Executar (Krunner).desktop
 url=file:///usr/share/applications/Executar (Krunner).desktop
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
+
+[Containments][2][Applets][30]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][30][Configuration]
+localPath=/home/biglinux/.local/share/plasma_icons/chromium-browser.desktop
+url=file:///usr/share/applications/chromium-browser.desktop
 
 [Containments][2][Applets][4]
 immutability=1
@@ -134,7 +133,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=19;4;21;20;25;5;29;6;8
+AppletOrder=19;4;30;20;25;5;29;6;8
 
 [Containments][27]
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -154,7 +153,7 @@ PreloadWeight=0
 
 [Containments][27][General]
 arrangement=1
-positions=1,6,desktop:/calamares.desktop,0,2,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
+positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1
 sortMode=-1
 
 [Containments][27][Wallpaper][org.kde.image][General]
@@ -282,8 +281,8 @@ knownItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,or
 shownItems=qBittorrent
 
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/calamares.desktop,0,desktop:/home.desktop,0,desktop:/trash.desktop,0
+screenMapping=desktop:/trash.desktop,0,desktop:/calamares.desktop,0,desktop:/home.desktop,0

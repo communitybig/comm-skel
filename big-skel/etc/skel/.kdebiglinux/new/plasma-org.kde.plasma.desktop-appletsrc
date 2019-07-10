@@ -54,7 +54,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][2][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:chromium-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -98,7 +98,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][32][Configuration]
-localPath=
+localPath=/home/biglinux/.local/share/plasma_icons/Executar (Krunner).desktop
 url=file:///usr/share/applications/Executar (Krunner).desktop
 
 [Containments][2][Applets][4]
@@ -155,7 +155,7 @@ PreloadWeight=0
 
 [Containments][27][General]
 arrangement=1
-positions=1,7,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0,desktop:/calamares.desktop,0,2
+positions=1,7,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
 sortMode=-1
 
 [Containments][27][Wallpaper][org.kde.image][General]

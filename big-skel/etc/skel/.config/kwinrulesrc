@@ -1,0 +1,29 @@
+[1]
+Description=Dolphin
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+placement=Centered
+placementrule=2
+title=Copiando — Dolphin
+titlematch=0
+type=0
+typerule=2
+types=32
+wmclass=dolphin dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=krunner
+ignoregeometry=true
+ignoregeometryrule=2
+placement=Centered
+placementrule=2
+wmclass=krunner
+wmclasscomplete=false
+wmclassmatch=1
+
+[General]
+count=2
