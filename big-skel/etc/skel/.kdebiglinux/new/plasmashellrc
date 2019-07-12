@@ -1,9 +1,12 @@
 [KFileDialog Settings]
-Recent Files[$e]=biglinux2.png,file:$HOME/biglinux2.png
+Recent Files[$e]=
 
 [PlasmaRunnerManager]
 LaunchCounts=5 services_org.kde.konsole.desktop,1 services_org.kde.kfind.desktop
 pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,locations
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
 
 [PlasmaViews][Panel 2][Horizontal*]
 thickness=42
@@ -32,8 +35,6 @@ thickness=42
 [PlasmaViews][Panel 2][Horizontal640]
 thickness=42
 
-[ScreenConnectors]
-0=VGA-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

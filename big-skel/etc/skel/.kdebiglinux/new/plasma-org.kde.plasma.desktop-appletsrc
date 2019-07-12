@@ -93,14 +93,6 @@ useCustomButtonImage=true
 [Containments][2][Applets][31][Shortcuts]
 global=Alt+F1
 
-[Containments][2][Applets][32]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][32][Configuration]
-localPath=/home/biglinux/.local/share/plasma_icons/Executar (Krunner).desktop
-url=file:///usr/share/applications/Executar (Krunner).desktop
-
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -117,7 +109,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=56
+PreloadWeight=61
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -135,7 +127,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=31;4;25;29;32;30;6;8
+AppletOrder=31;4;25;29;30;6;8
 
 [Containments][27]
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -155,7 +147,7 @@ PreloadWeight=0
 
 [Containments][27][General]
 arrangement=1
-positions=1,7,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
+positions=1,7,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0,desktop:/calamares.desktop,0,2
 sortMode=-1
 
 [Containments][27][Wallpaper][org.kde.image][General]
@@ -262,6 +254,10 @@ plugin=org.kde.kscreen
 [Containments][7][Applets][28][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][33]
+immutability=1
+plugin=org.kde.redshiftControl
+
 [Containments][7][Applets][9]
 immutability=1
 plugin=org.kde.discovernotifier
@@ -277,8 +273,8 @@ DialogWidth=720
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kscreen
-hiddenItems=org.kde.plasma.vault
+extraItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.redshiftControl
+hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
 shownItems=qBittorrent
 
@@ -287,4 +283,4 @@ immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/calamares.desktop,0,desktop:/home.desktop,0,desktop:/trash.desktop,0
+screenMapping=desktop:/calamares.desktop,0,desktop:/trash.desktop,0,desktop:/home.desktop,0

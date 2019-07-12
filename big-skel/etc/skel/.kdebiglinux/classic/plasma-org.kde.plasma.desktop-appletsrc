@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=98
+PreloadWeight=97
 
 [Containments][2][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
@@ -59,7 +59,7 @@ plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][20][Configuration]
 PreloadWeight=0
-localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
+localPath=
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][2][Applets][25]
@@ -69,14 +69,6 @@ plugin=org.kde.plasma.showdesktop
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=0
 
-[Containments][2][Applets][29]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][29][Configuration]
-localPath=/home/biglinux/.local/share/plasma_icons/Executar (Krunner).desktop
-url=file:///usr/share/applications/Executar (Krunner).desktop
-
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
@@ -85,7 +77,8 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][30][Configuration]
-localPath=/home/biglinux/.local/share/plasma_icons/chromium-browser.desktop
+PreloadWeight=42
+localPath=
 url=file:///usr/share/applications/chromium-browser.desktop
 
 [Containments][2][Applets][4]
@@ -115,7 +108,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -133,7 +126,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=19;4;30;20;25;5;29;6;8
+AppletOrder=19;4;30;20;25;5;6;8
 
 [Containments][27]
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -153,7 +146,7 @@ PreloadWeight=0
 
 [Containments][27][General]
 arrangement=1
-positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1
+positions=1,7,desktop:/calamares.desktop,0,2,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1
 sortMode=-1
 
 [Containments][27][Wallpaper][org.kde.image][General]
@@ -195,7 +188,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][7][Applets][14]
 immutability=1
@@ -260,6 +253,10 @@ plugin=org.kde.kscreen
 [Containments][7][Applets][28][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][31]
+immutability=1
+plugin=org.kde.redshiftControl
+
 [Containments][7][Applets][9]
 immutability=1
 plugin=org.kde.discovernotifier
@@ -268,21 +265,21 @@ plugin=org.kde.discovernotifier
 PreloadWeight=0
 
 [Containments][7][ConfigDialog]
-DialogHeight=540
+DialogHeight=840
 DialogWidth=720
 
 [Containments][7][Configuration]
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kscreen
-hiddenItems=org.kde.plasma.vault
+extraItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.redshiftControl
+hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
 shownItems=qBittorrent
 
 [General]
-immutability=1
+immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,desktop:/calamares.desktop,0,desktop:/home.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/calamares.desktop,0
