@@ -5,7 +5,7 @@ Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.br>
 Section: admin
 Priority: optional
-Installed-Size:46400
+Installed-Size:46224
 Description: Skeleton to default user configuration
 
 
