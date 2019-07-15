@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-240f9a98f386ec432e36bacc6e1b3e60  DEBIAN/control
+62223a51cabe6c49808b5f344fd9fca0  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 64cfa470381714f8f0942a551311e31b  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -759,10 +759,8 @@ dd9b6764848bb56ee68c5bfbac2d45e7  etc/skel/.config/autostart/lxqt-compton.deskto
 2d33924a8f9eadfd5e0019698b0fbb6f  etc/skel/.config/Kingsoft/Office.conf
 fb3aec5b4f6f2f5de8a7c805c4444d9b  etc/skel/.config/psd/psd.conf
 18bccca07d7924f2be70e28ac6e39ec2  etc/skel/.config/pulse/default.pa
-b62ab610d9a70ad051154ae395a1c2c5  etc/skel/.config/dolphinrc
 9f87577dd403a6f3cdb52cfc3e1f134b  etc/skel/.config/gwenviewrc
 2e4c672b7ccdf8a3792a8ef5149e3468  etc/skel/.config/katerc
-84b87d38f3a820b2a05dbab9a0e54b5c  etc/skel/.config/kdeglobals
 ee045acd92ccea36f3a1ff272d33cc7e  etc/skel/.config/konsolerc
 7b8fd1a821ad95587663a810a75a183a  etc/skel/.config/ksmserverrc
 afa7cc08d78ceae9002022eac189e9fe  etc/skel/.config/kwinqtcurverc
@@ -787,7 +785,6 @@ c3e2d453b26a66a4b2a6d65ec0c48680  etc/skel/.config/kscreenlockerrc
 fa5dcc5fab789c663f2cc672dc0a0f79  etc/skel/.config/touchpadrc
 fbc1deef825adad5ab3997fe17eae33e  etc/skel/.config/ksplashrc
 c22f5307bac08304b2add62ea7a16a21  etc/skel/.config/plasmanotifyrc
-aa31fbb3c6bbf625ab8efb7c62838d78  etc/skel/.config/mimeapps.list
 02171bd6ae3458776da91557288c9caf  etc/skel/.config/kwinrc
 942a7817662bb12c31ab66d410b0e942  etc/skel/.config/chromium/Default/Extensions/hkgfoiooedgoejojocmhlaklaeopbecg/1.7_0/assets/icon128.png
 9a9e7f456c1a3f9162b0129958d69356  etc/skel/.config/chromium/Default/Extensions/hkgfoiooedgoejojocmhlaklaeopbecg/1.7_0/assets/icon19.png
@@ -798,6 +795,10 @@ d421ca8ac78ce90c278d7efb8afbe127  etc/skel/.config/chromium/Default/Extensions/h
 14f2969add0d539edb16e1ece483422d  etc/skel/.config/chromium/Default/Extensions/hkgfoiooedgoejojocmhlaklaeopbecg/1.7_0/script.js
 285b65048cdd162f32fade112fa31895  etc/skel/.config/chromium/Default/Preferences
 cb632ab6506cdf8d1e25dcc8c26ab808  etc/skel/.config/kwinrulesrc
+f759a98845e31e8228dbd07392bd4d6f  etc/skel/.config/mimeapps.list
+5fb7eae700d8ebc7c1ceb9011efb3dc9  etc/skel/.config/dolphinrc
+40b77ffeb051e114980e9d14860a36d4  etc/skel/.config/kiorc
+c2a3f660cbd38486bdc1573c5e99ab4d  etc/skel/.config/kdeglobals
 2a797bf1d53ad458330778bf434b9d23  etc/skel/.local/share/kxmlgui5/kate/kateui.rc
 8dafa6198b98a93b0754e67eecb80e4e  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 ae3be79a65897035f3c68da85aa155ab  etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc
