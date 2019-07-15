@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-62223a51cabe6c49808b5f344fd9fca0  DEBIAN/control
+b565762363ffeaf08f660c7b19061539  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 64cfa470381714f8f0942a551311e31b  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -867,9 +867,7 @@ d1fc1284e25881d660a0686119bc51e9  etc/skel/.local/share/kactivitymanagerd/resour
 896fb5b2e1e970d67c0632e7674b3c34  etc/skel/.local/share/konsole/Breeze.colorscheme
 9ef187283c7183bf805dbfdd438635b9  etc/skel/.local/share/konsole/Perfil 1.profile
 40f038cde487a4cb3a6ae44fafa58961  etc/skel/.local/share/gvfs-metadata/root
-34173cb38f07f89ddbebc2ac9128303f  etc/skel/.local/share/epiphany-webapps-5f2be8852d9d785d977e2f96cfc39587a35b64f0/.migrated
-4a25e49c23ffb78854186b744b02b836  etc/skel/.local/share/epiphany-webapps-5f2be8852d9d785d977e2f96cfc39587a35b64f0/epiphany-webapps-5f2be8852d9d785d977e2f96cfc39587a35b64f0.desktop
-d41d8cd98f00b204e9800998ecf8427e  etc/skel/.local/share/epiphany-webapps-5f2be8852d9d785d977e2f96cfc39587a35b64f0/.app
+d41d8cd98f00b204e9800998ecf8427e  etc/skel/.local/share/appimagekit/no_desktopintegration
 f20674a0751f58bbd67ada26a34ad922  etc/skel/.mozilla/firefox/afo5sto0.default/weave/toFetch/tabs.json
 f20674a0751f58bbd67ada26a34ad922  etc/skel/.mozilla/firefox/afo5sto0.default/weave/failed/tabs.json
 4a211c54eaaaeed228a29efa20831b2f  etc/skel/.mozilla/firefox/afo5sto0.default/chrome/userChrome.css
