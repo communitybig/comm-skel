@@ -5,7 +5,7 @@ Timeout=10
 
 [FeedbackStyle]
 BusyCursor=true
-TaskbarButton=true
+TaskbarButton=false
 
 [TaskbarButtonSettings]
 Timeout=10
