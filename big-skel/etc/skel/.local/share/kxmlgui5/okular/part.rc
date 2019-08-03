@@ -1,5 +1,5 @@
 <!DOCTYPE kpartgui>
-<kpartgui version="38" name="okular_part">
+<kpartgui version="39" name="okular_part">
  <MenuBar>
   <Menu noMerge="1" name="file">
    <text translationDomain="okular">&amp;File</text>
@@ -34,6 +34,7 @@
    <Separator/>
    <Action name="view_zoom_in"/>
    <Action name="view_zoom_out"/>
+   <Action name="view_actual_size"/>
    <Action name="view_fit_to_width"/>
    <Action name="view_fit_to_page"/>
    <Action name="view_auto_fit"/>
@@ -113,17 +114,18 @@
   <Action name="view_orientation_rotate_ccw"/>
   <Separator name="separator_2"/>
   <Action name="zoom_to"/>
+  <Action name="mouse_toggle_annotate"/>
   <Action name="mouse_drag"/>
   <Action name="mouse_select"/>
   <Action name="mouse_textselect"/>
   <Action name="edit_find"/>
  </ToolBar>
- <ActionProperties scheme="Default">
+ <ActionProperties>
+  <Action priority="0" name="presentation"/>
   <Action priority="0" name="show_leftpanel"/>
   <Action priority="0" name="view_continuous"/>
-  <Action priority="0" name="view_render_mode"/>
-  <Action priority="0" name="presentation"/>
-  <Action priority="0" name="view_orientation_rotate_cw"/>
   <Action priority="0" name="view_orientation_rotate_ccw"/>
+  <Action priority="0" name="view_orientation_rotate_cw"/>
+  <Action priority="0" name="view_render_mode"/>
  </ActionProperties>
 </kpartgui>

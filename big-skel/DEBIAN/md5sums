@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-ebde930d6ce704a0c8371c4d54b4f676  DEBIAN/control
+79a041cdd1981ac72ca17fb2eb3e9123  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 64cfa470381714f8f0942a551311e31b  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -800,6 +800,8 @@ fdc3387100ec309be4b19bad7579e214  etc/skel/.config/klaunchrc
 cac0e1c3c29c409cd927831f1b0ba980  etc/skel/.config/katerc
 1c17c7175c013ef9c29a49649883d481  etc/skel/.config/kateschemarc
 ab91c528b439152bf91e45e9d393c48b  etc/skel/.config/kwinrulesrc
+7334f1aebe556eae2803f49016006002  etc/skel/.config/khotkeysrc
+91cf577a65899a84eedcc4bb1caa94e0  etc/skel/.config/kglobalshortcutsrc
 2a797bf1d53ad458330778bf434b9d23  etc/skel/.local/share/kxmlgui5/kate/kateui.rc
 8dafa6198b98a93b0754e67eecb80e4e  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 ae3be79a65897035f3c68da85aa155ab  etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc
@@ -820,8 +822,8 @@ cccf710cbec06fafcd85b40a229682fe  etc/skel/.local/share/kxmlgui5/gwenview/kipipl
 84fb21df8347853c89ddd4119c922b7b  etc/skel/.local/share/kxmlgui5/gwenview/kipiplugin_imgurui.rc
 02843626bdbd8d0d4782c49958358de2  etc/skel/.local/share/kxmlgui5/gwenview/kipiplugin_googleservicesui.rc
 ff4bbf409af4e2da2cddf000d4a3cd2d  etc/skel/.local/share/kxmlgui5/gwenview/kipiplugin_smugui.rc
-523ae4c7706a78b51fd073b101d2fa54  etc/skel/.local/share/kxmlgui5/okular/part.rc
 6b098571630fd0eb7ec54d8f83ee7c83  etc/skel/.local/share/kxmlgui5/okular/shell.rc
+45683ca4567c0c536d8f526e4a571e25  etc/skel/.local/share/kxmlgui5/okular/part.rc
 2add8b2dacd395632697eb65341f39d7  etc/skel/.local/share/kate/anonymous.katesession
 ae4ded7461d66368dcdb2880ce888768  etc/skel/.local/share/data/qBittorrent/logs/qbittorrent.log
 d41d8cd98f00b204e9800998ecf8427e  etc/skel/.local/share/data/qBittorrent/BT_backup/queue
