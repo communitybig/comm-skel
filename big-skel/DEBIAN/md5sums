@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-79a041cdd1981ac72ca17fb2eb3e9123  DEBIAN/control
+5845030b13ae4f40d3c8677569f79db2  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 64cfa470381714f8f0942a551311e31b  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -802,6 +802,9 @@ cac0e1c3c29c409cd927831f1b0ba980  etc/skel/.config/katerc
 ab91c528b439152bf91e45e9d393c48b  etc/skel/.config/kwinrulesrc
 7334f1aebe556eae2803f49016006002  etc/skel/.config/khotkeysrc
 91cf577a65899a84eedcc4bb1caa94e0  etc/skel/.config/kglobalshortcutsrc
+f9c93f44f198e13d07fc6ec89008e751  etc/skel/.config/kcm_touchpad.notifyrc
+c5d3afe6ff6907dc1f10c4a4d7e809ad  etc/skel/.config/plasma_workspace.notifyrc
+1fa3f37fc9286630dd864fa68df7b11b  etc/skel/.config/powerdevil.notifyrc
 2a797bf1d53ad458330778bf434b9d23  etc/skel/.local/share/kxmlgui5/kate/kateui.rc
 8dafa6198b98a93b0754e67eecb80e4e  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 ae3be79a65897035f3c68da85aa155ab  etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc

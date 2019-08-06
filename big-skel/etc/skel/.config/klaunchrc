@@ -1,6 +1,6 @@
 [BusyCursorSettings]
-Blinking=true
-Bouncing=false
+Blinking=false
+Bouncing=true
 Timeout=10
 
 [FeedbackStyle]
