@@ -1,17 +1,10 @@
-[Common]
-OutlineCloseButton=false
-
-[Windeco]
-ButtonSize=ButtonSmall
-DrawBackgroundGradient=false
-
 [Windeco Exception 0]
-BorderSize=0
+BorderSize=1
 Enabled=true
 ExceptionPattern=Gnome-calculator
 ExceptionType=0
 HideTitleBar=true
-Mask=16
+Mask=0
 
 [Windeco Exception 1]
 BorderSize=1

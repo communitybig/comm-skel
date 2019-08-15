@@ -258,6 +258,16 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.redshiftControl
 
+[Containments][7][Applets][33][Configuration]
+PreloadWeight=42
+
+[Containments][7][Applets][33][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][7][Applets][33][Configuration][General]
+autostart=false
+
 [Containments][7][Applets][9]
 immutability=1
 plugin=org.kde.discovernotifier

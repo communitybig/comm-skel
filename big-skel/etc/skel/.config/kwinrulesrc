@@ -4,8 +4,6 @@ clientmachine=localhost
 clientmachinematch=0
 noborder=false
 noborderrule=2
-title=
-titlematch=0
 type=0
 typerule=2
 types=32
@@ -14,18 +12,66 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [2]
+Description=simple-scan
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+title=Digitalização simples
+titlematch=0
+types=1
+wmclass=simple-scan simple-scan
+wmclasscomplete=true
+wmclassmatch=1
+
+[3]
+Description=gnome-calculator
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+title=Calculadora
+titlematch=0
+wmclass=gnome-calculator
+wmclasscomplete=false
+wmclassmatch=1
+
+[4]
+Description=lutris
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+title=Lutris
+titlematch=0
+wmclass=lutris
+wmclasscomplete=false
+wmclassmatch=1
+
+[5]
+Description=chromium-browser
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+title=Nova guia - Chromium
+titlematch=0
+types=1
+wmclass=chromium-browser chromium-browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[6]
 Description=deepin-terminal
 clientmachine=localhost
 clientmachinematch=0
 noborder=true
 noborderrule=2
-title=
-titlematch=0
 wmclass=deepin-terminal
 wmclasscomplete=false
 wmclassmatch=1
 
-[3]
+[7]
 Description=Chromium PIP
 above=true
 aboverule=2
@@ -38,7 +84,7 @@ wmclass=
 wmclasscomplete=false
 wmclassmatch=1
 
-[4]
+[8]
 Description=krunner
 ignoregeometry=true
 ignoregeometryrule=2
@@ -49,4 +95,4 @@ wmclasscomplete=false
 wmclassmatch=1
 
 [General]
-count=4
+count=8
