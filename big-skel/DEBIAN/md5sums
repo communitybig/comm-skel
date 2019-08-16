@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-df6e83154f8ff5e749e7c82b639eb6c9  DEBIAN/control
+1c9bcff95106592b3a5cad4a2bbfa40b  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 110b5a9ff56caf6f323f0a810e6f96bd  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -731,11 +731,11 @@ c653baae14a07ec8a7fccf391a48831d  etc/skel/.config/libreoffice/4/user/basic/Stan
 872d05df431769100bd65f82a23b720e  etc/skel/.config/libreoffice/4/user/basic/dialog.xlc
 d338801744ff787a7463e7df50b2280d  etc/skel/.config/libreoffice/4/user/basic/script.xlc
 c9f2b605cdadae1b1b675373f65e45b7  etc/skel/.config/libreoffice/4/user/autotext/mytexts.bau
-985d904bc3d27eb587ed8a61253564f8  etc/skel/.config/libreoffice/4/user/registrymodifications.xcu
+7afd778ca2acd6fa44d82ad0722d6be3  etc/skel/.config/libreoffice/4/user/registrymodifications.xcu
 0b1cfba64bf42a4bc1db10a9c0be8e39  etc/skel/.config/qtcurve/stylerc
 1db90c9e6851cf57d7edc14eac54618f  etc/skel/.config/smplayer/styles.ass
 8a36254715d1912a4452ffa99f787271  etc/skel/.config/smplayer/smplayer.ini
-64544b1d8aadbec8dd31cec075186b03  etc/skel/.config/dconf/user
+3a7a94b187ffad34be32d93ef1e321ac  etc/skel/.config/dconf/user
 ca37c717011bebdada56aef45f33de6e  etc/skel/.config/gtk-3.0/settings.ini
 5b76b0eef9af8a2300673e0553f609f9  etc/skel/.config/qBittorrent/rss/feeds.json
 dda96d0a58c00c2984ebe0716ac48604  etc/skel/.config/qBittorrent/qBittorrent-data.conf
@@ -800,7 +800,6 @@ cac0e1c3c29c409cd927831f1b0ba980  etc/skel/.config/katerc
 f9c93f44f198e13d07fc6ec89008e751  etc/skel/.config/kcm_touchpad.notifyrc
 c5d3afe6ff6907dc1f10c4a4d7e809ad  etc/skel/.config/plasma_workspace.notifyrc
 1fa3f37fc9286630dd864fa68df7b11b  etc/skel/.config/powerdevil.notifyrc
-e0a640c7ff2219eef8b7a5e933f7a11c  etc/skel/.config/kdeglobals
 1dfbd78a4648b1d491b40a485d2c6c2f  etc/skel/.config/fontconfig/conf.d/99-zbig.conf
 bab77ae5513d9c2058ec41d03fafc5a2  etc/skel/.config/klaunchrc
 63e60b0836f9aa5cf2b5c8865c6f1cc2  etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
@@ -808,6 +807,8 @@ bab77ae5513d9c2058ec41d03fafc5a2  etc/skel/.config/klaunchrc
 573baeaf8bfc36fce5bb9904989f45da  etc/skel/.config/breezerc
 9a0e06a91f6147cfdd4f24aaddbeaaa3  etc/skel/.config/kwinrulesrc
 4e617ec9f87d51ccdb46011d81da78dc  etc/skel/.config/oxygenrc
+73dcb4f7d63477ae6237a71f4f724d8f  etc/skel/.config/krunnerrc
+10482e5005a3016cf2bd6be29be528d9  etc/skel/.config/kdeglobals
 2a797bf1d53ad458330778bf434b9d23  etc/skel/.local/share/kxmlgui5/kate/kateui.rc
 8dafa6198b98a93b0754e67eecb80e4e  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 ae3be79a65897035f3c68da85aa155ab  etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc
