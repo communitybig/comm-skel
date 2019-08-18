@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-1c9bcff95106592b3a5cad4a2bbfa40b  DEBIAN/control
+e42ff6cb54d75d4e6e01d59949bff9c0  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 110b5a9ff56caf6f323f0a810e6f96bd  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -753,7 +753,7 @@ f084e259ee5fa52897f6b595ec270235  etc/skel/.config/lxqt/lxqt-powermanagement.con
 7682c7dfec5c619e8cdf77d8c08d642c  etc/skel/.config/lxqt/power.conf
 9bc9b1624f9780ed695d87a46d761a82  etc/skel/.config/lxqt/panel.conf
 7f7503315be3affd32f5329f2b3cfd79  etc/skel/.config/openbox/lxqt-rc.xml
-c871b50ebc3245b6930c39d16f93b45c  etc/skel/.config/pcmanfm-qt/lxqt/settings.conf
+3b9df7218d7d773ea879b18dbeee5826  etc/skel/.config/pcmanfm-qt/lxqt/settings.conf
 dd9b6764848bb56ee68c5bfbac2d45e7  etc/skel/.config/autostart/lxqt-compton.desktop
 24a8548a406ce1879495b6334710b215  etc/skel/.config/autostart/icons.desktop
 2d33924a8f9eadfd5e0019698b0fbb6f  etc/skel/.config/Kingsoft/Office.conf
@@ -792,7 +792,6 @@ d421ca8ac78ce90c278d7efb8afbe127  etc/skel/.config/chromium/Default/Extensions/h
 0a9faa7feedd76e46c84510c5b2566c9  etc/skel/.config/chromium/Default/Preferences
 5fb7eae700d8ebc7c1ceb9011efb3dc9  etc/skel/.config/dolphinrc
 40b77ffeb051e114980e9d14860a36d4  etc/skel/.config/kiorc
-8e622bfddbb2daa20494283e1592d6af  etc/skel/.config/mimeapps.list
 cac0e1c3c29c409cd927831f1b0ba980  etc/skel/.config/katerc
 1c17c7175c013ef9c29a49649883d481  etc/skel/.config/kateschemarc
 7334f1aebe556eae2803f49016006002  etc/skel/.config/khotkeysrc
@@ -805,10 +804,11 @@ bab77ae5513d9c2058ec41d03fafc5a2  etc/skel/.config/klaunchrc
 63e60b0836f9aa5cf2b5c8865c6f1cc2  etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
 0e240ef8de1b57447208ba13a7e1a497  etc/skel/.config/kded_device_automounterrc
 573baeaf8bfc36fce5bb9904989f45da  etc/skel/.config/breezerc
-9a0e06a91f6147cfdd4f24aaddbeaaa3  etc/skel/.config/kwinrulesrc
 4e617ec9f87d51ccdb46011d81da78dc  etc/skel/.config/oxygenrc
 73dcb4f7d63477ae6237a71f4f724d8f  etc/skel/.config/krunnerrc
 10482e5005a3016cf2bd6be29be528d9  etc/skel/.config/kdeglobals
+bb9527545e526d3995d53968aa2f7bc7  etc/skel/.config/kwinrulesrc
+5dea86bf19610d8175604b82af126a33  etc/skel/.config/mimeapps.list
 2a797bf1d53ad458330778bf434b9d23  etc/skel/.local/share/kxmlgui5/kate/kateui.rc
 8dafa6198b98a93b0754e67eecb80e4e  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 ae3be79a65897035f3c68da85aa155ab  etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc
