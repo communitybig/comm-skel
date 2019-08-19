@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-e42ff6cb54d75d4e6e01d59949bff9c0  DEBIAN/control
+dc560946ac9a839cbb3c88260ddbb299  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 110b5a9ff56caf6f323f0a810e6f96bd  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -799,7 +799,7 @@ cac0e1c3c29c409cd927831f1b0ba980  etc/skel/.config/katerc
 f9c93f44f198e13d07fc6ec89008e751  etc/skel/.config/kcm_touchpad.notifyrc
 c5d3afe6ff6907dc1f10c4a4d7e809ad  etc/skel/.config/plasma_workspace.notifyrc
 1fa3f37fc9286630dd864fa68df7b11b  etc/skel/.config/powerdevil.notifyrc
-1dfbd78a4648b1d491b40a485d2c6c2f  etc/skel/.config/fontconfig/conf.d/99-zbig.conf
+6e5308b6f97f4b4e987537fe2a259d2e  etc/skel/.config/fontconfig/conf.d/99-zbig.conf
 bab77ae5513d9c2058ec41d03fafc5a2  etc/skel/.config/klaunchrc
 63e60b0836f9aa5cf2b5c8865c6f1cc2  etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
 0e240ef8de1b57447208ba13a7e1a497  etc/skel/.config/kded_device_automounterrc
