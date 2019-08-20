@@ -155,7 +155,7 @@ PreloadWeight=0
 [Containments][27][General]
 arrangement=1
 iconSize=3
-positions=1,8,desktop:/calamares.desktop,0,2,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
+positions=1,9,desktop:/calamares.desktop,0,2,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
 sortMode=-1
 
 [Containments][27][Wallpaper][org.kde.image][General]
