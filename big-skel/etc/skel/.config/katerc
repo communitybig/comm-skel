@@ -148,3 +148,6 @@ shadingEnabled=true
 showFullPathOnRoots=false
 sortRole=0
 viewShade=193,208,209
+
+[UiSettings]
+ColorScheme=

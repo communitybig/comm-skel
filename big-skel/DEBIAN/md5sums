@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-dc560946ac9a839cbb3c88260ddbb299  DEBIAN/control
+e691ba1400b48c0614500421482666e1  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 110b5a9ff56caf6f323f0a810e6f96bd  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -792,10 +792,8 @@ d421ca8ac78ce90c278d7efb8afbe127  etc/skel/.config/chromium/Default/Extensions/h
 0a9faa7feedd76e46c84510c5b2566c9  etc/skel/.config/chromium/Default/Preferences
 5fb7eae700d8ebc7c1ceb9011efb3dc9  etc/skel/.config/dolphinrc
 40b77ffeb051e114980e9d14860a36d4  etc/skel/.config/kiorc
-cac0e1c3c29c409cd927831f1b0ba980  etc/skel/.config/katerc
 1c17c7175c013ef9c29a49649883d481  etc/skel/.config/kateschemarc
 7334f1aebe556eae2803f49016006002  etc/skel/.config/khotkeysrc
-91cf577a65899a84eedcc4bb1caa94e0  etc/skel/.config/kglobalshortcutsrc
 f9c93f44f198e13d07fc6ec89008e751  etc/skel/.config/kcm_touchpad.notifyrc
 c5d3afe6ff6907dc1f10c4a4d7e809ad  etc/skel/.config/plasma_workspace.notifyrc
 1fa3f37fc9286630dd864fa68df7b11b  etc/skel/.config/powerdevil.notifyrc
@@ -809,6 +807,8 @@ bab77ae5513d9c2058ec41d03fafc5a2  etc/skel/.config/klaunchrc
 10482e5005a3016cf2bd6be29be528d9  etc/skel/.config/kdeglobals
 bb9527545e526d3995d53968aa2f7bc7  etc/skel/.config/kwinrulesrc
 5dea86bf19610d8175604b82af126a33  etc/skel/.config/mimeapps.list
+db7af7ac367b27c31eeea7a8c66d048a  etc/skel/.config/kglobalshortcutsrc
+1ccf4536db8213941a30e2ee04bc3c25  etc/skel/.config/katerc
 2a797bf1d53ad458330778bf434b9d23  etc/skel/.local/share/kxmlgui5/kate/kateui.rc
 8dafa6198b98a93b0754e67eecb80e4e  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 ae3be79a65897035f3c68da85aa155ab  etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc
@@ -915,7 +915,7 @@ f250193a44815a6ca0b28dd069183b4f  etc/skel/.mozilla/firefox/profiles.ini
 74c95ee60ea7bf34e5525d7abc277573  etc/skel/.kdebiglinux/classic/plasma-org.kde.plasma.desktop-appletsrc
 57e979c01cfdeb1fb8b23c82d113d9c6  etc/skel/.kdebiglinux/new/plasmarc
 69ef6913b0cdf05397313bc574223dba  etc/skel/.kdebiglinux/new/plasmashellrc
-5cd9be949ae59bd4934859ec742d2467  etc/skel/.kdebiglinux/new/plasma-org.kde.plasma.desktop-appletsrc
+45a2522461a106c30492bc02af605297  etc/skel/.kdebiglinux/new/plasma-org.kde.plasma.desktop-appletsrc
 e0ac54d2488bf72442addf48187e6160  etc/skel/.bashrc
 1f931c9eada099e4f2c4ba892708aade  etc/skel/.gtkrc-2.0
 9b28709e3b7da3e19d9899a32ce9064a  usr/bin/bighome

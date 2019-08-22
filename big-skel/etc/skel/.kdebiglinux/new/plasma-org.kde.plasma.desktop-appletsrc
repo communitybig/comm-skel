@@ -91,7 +91,7 @@ favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
 [Containments][2][Applets][31][Shortcuts]
-global=Alt+F1
+global=Meta+F1
 
 [Containments][2][Applets][4]
 immutability=1
