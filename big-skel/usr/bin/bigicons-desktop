@@ -34,9 +34,15 @@ Icon=system-file-manager
 Type=Application' > "$XDG_DESKTOP_DIR/home.desktop"
 chmod +x "$XDG_DESKTOP_DIR/home.desktop"
 
+gio set "$XDG_DESKTOP_DIR/home.desktop" -t string metadata::trusted "true"
+
+gio set "$XDG_DESKTOP_DIR/trash.desktop" -t string metadata::trusted "true"
+
 if [ -e "/rofs" ]; then
     cp -f "/usr/share/applications/calamares.desktop" "$XDG_DESKTOP_DIR/calamares.desktop"
     chmod +x "$XDG_DESKTOP_DIR/calamares.desktop"
+    gio set "$XDG_DESKTOP_DIR/calamares.desktop" -t string metadata::trusted "true"
 fi
+
 
 rm -f ~/.config/autostart/icons.desktop
