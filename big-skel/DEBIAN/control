@@ -1,11 +1,11 @@
 Package: big-skel
-Version: 7.0.0-3big8
+Version: 7.0.0-3big9
 Depends:
 Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.br>
 Section: admin
 Priority: optional
-Installed-Size:47124
+Installed-Size:47120
 Description: Skeleton to default user configuration
 
 

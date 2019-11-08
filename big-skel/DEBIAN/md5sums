@@ -2,7 +2,7 @@ d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
-4523fc089b67f43d35dafe6a9aba75df  DEBIAN/control
+c2dbf4a7a827b9dd1728db3942a6e7d6  DEBIAN/control
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 110b5a9ff56caf6f323f0a810e6f96bd  etc/skel/.config/Clementine/Clementine.conf
 8b9e6bbc0e5ca370dc772e910acde963  etc/skel/.config/GIMP/2.10/filters/GimpGegl-gegl-gaussian-blur-config.settings
@@ -754,7 +754,6 @@ f084e259ee5fa52897f6b595ec270235  etc/skel/.config/lxqt/lxqt-powermanagement.con
 e45923999fda26b5aaa2ae6913ad4a1f  etc/skel/.config/lxqt/lxqt-config.conf
 7f7503315be3affd32f5329f2b3cfd79  etc/skel/.config/openbox/lxqt-rc.xml
 3b9df7218d7d773ea879b18dbeee5826  etc/skel/.config/pcmanfm-qt/lxqt/settings.conf
-dd9b6764848bb56ee68c5bfbac2d45e7  etc/skel/.config/autostart/lxqt-compton.desktop
 24a8548a406ce1879495b6334710b215  etc/skel/.config/autostart/icons.desktop
 2d33924a8f9eadfd5e0019698b0fbb6f  etc/skel/.config/Kingsoft/Office.conf
 fb3aec5b4f6f2f5de8a7c805c4444d9b  etc/skel/.config/psd/psd.conf
