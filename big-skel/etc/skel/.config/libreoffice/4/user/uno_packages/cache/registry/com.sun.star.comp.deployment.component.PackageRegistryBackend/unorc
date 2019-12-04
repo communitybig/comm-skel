@@ -1,3 +1,3 @@
 ORIGIN=$UNO_USER_PACKAGES_CACHE/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
-UNO_JAVA_CLASSPATH=$UNO_USER_PACKAGES_CACHE/uno_packages/lu6181zawq06.tmp_/LanguageTool-4.6.oxt/languagetool-office-extension-4.6.jar
-UNO_SERVICES=?$ORIGIN/common_.rdb ${$ORIGIN/${_OS}_${_ARCH}rc:UNO_SERVICES}
+UNO_JAVA_CLASSPATH=$UNO_USER_PACKAGES_CACHE/uno_packages/lu13322qsycjw.tmp_/LanguageTool-4.7.oxt/languagetool-office-extension-4.7.jar
+UNO_SERVICES=?$ORIGIN/common.rdb ${$ORIGIN/${_OS}_${_ARCH}rc:UNO_SERVICES}
