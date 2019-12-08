@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
 
 [Compositing]
 AnimationSpeed=3
@@ -7,7 +7,7 @@ Backend=OpenGL
 Enabled=true
 GLCore=false
 GLPreferBufferSwap=a
-GLTextureFilter=0
+GLTextureFilter=1
 HiddenPreviews=5
 OpenGLIsUnsafe=false
 WindowsBlockCompositing=true
@@ -18,6 +18,10 @@ Id_1=77e3a8d9-802a-45cd-b14a-8a1ea3cb6cb6
 Number=1
 Rows=1
 
+[Effect-CoverSwitch]
+TabBox=true
+TabBoxAlternative=false
+
 [Effect-Cube]
 BorderActivate=9
 BorderActivateCylinder=9
@@ -25,6 +29,10 @@ BorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=9
+
+[Effect-FlipSwitch]
+TabBox=false
+TabBoxAlternative=false
 
 [Effect-PresentWindows]
 BorderActivate=9
@@ -41,9 +49,43 @@ Top=None
 TopLeft=None
 TopRight=None
 
+[Plugins]
+coverswitchEnabled=true
+flipswitchEnabled=true
+highlightwindowEnabled=true
+kwin4_effect_dimscreenEnabled=true
+kwin4_effect_fadeEnabled=false
+kwin4_effect_loginEnabled=false
+kwin4_effect_logoutEnabled=false
+kwin4_effect_maximizeEnabled=false
+kwin4_effect_windowapertureEnabled=false
+slidingpopupsEnabled=false
+
 [TabBox]
+ActivitiesMode=1
+ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopMode=1
+HighlightWindows=true
+LayoutName=org.kde.breeze.desktop
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
+
+[TabBoxAlternative]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopMode=1
+HighlightWindows=true
+LayoutName=org.kde.breeze.desktop
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
 
 [Windows]
 ActiveMouseScreen=false
@@ -70,6 +112,7 @@ WindowSnapZone=10
 
 [org.kde.kdecoration2]
 BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false

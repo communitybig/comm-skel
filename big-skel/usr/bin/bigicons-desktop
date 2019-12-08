@@ -7,7 +7,8 @@ while [  $CONTADOR -lt 120 ]; do
     if [ -e "$HOME/.config/user-dirs.dirs" ]; then
         CONTADOR=120
     fi
-    let CONTADOR=CONTADOR+1; 
+    let CONTADOR=CONTADOR+1;
+    sleep 0.2
 done
 
 
