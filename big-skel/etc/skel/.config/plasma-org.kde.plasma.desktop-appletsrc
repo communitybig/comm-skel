@@ -33,11 +33,34 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][2][Applets][19]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][2][Applets][19][Configuration]
+PreloadWeight=100
+
+[Containments][2][Applets][19][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][19][Configuration][General]
 appNameFormat=3
 customButtonImage=/usr/share/pixmaps/biglinux.png
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
+
+[Containments][2][Applets][19][Shortcuts]
+global=Alt+F1
+
+[Containments][2][Applets][20]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][20][Configuration]
+PreloadWeight=0
+localPath=$HOME/.local/share/plasma_icons/org.kde.dolphin.desktop
+url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][2][Applets][25]
 immutability=1
@@ -46,59 +69,17 @@ plugin=org.kde.plasma.showdesktop
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=0
 
-[Containments][2][Applets][29]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][2][Applets][29][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop
-
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][2][Applets][30]
 immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][2][Applets][30][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][30][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][2][Applets][30][Configuration][General]
-show_lockScreen=false
-
-[Containments][2][Applets][31]
-immutability=1
-plugin=org.kde.plasma.kickersupersimple
-
-[Containments][2][Applets][31][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][31][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][2][Applets][31][Configuration][General]
-appNameFormat=3
-customButtonImage=/usr/share/pixmaps/biglinux2.png
-favoritesPortedToKAstats=true
-useCustomButtonImage=true
-
-[Containments][2][Applets][31][Shortcuts]
-global=Alt+F1
-
-[Containments][2][Applets][32]
-immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][2][Applets][32][Configuration]
-url=file:///usr/share/applications/Executar (Krunner).desktop
+[Containments][2][Applets][30][Configuration]
+PreloadWeight=42
+localPath=$HOME/.local/share/plasma_icons/chromium-browser.desktop
+url=file:///usr/share/applications/chromium-browser.desktop
 
 [Containments][2][Applets][4]
 immutability=1
@@ -106,6 +87,17 @@ plugin=org.kde.plasma.pager
 
 [Containments][2][Applets][4][Configuration]
 PreloadWeight=0
+
+[Containments][2][Applets][5]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][2][Applets][5][Configuration]
+PreloadWeight=0
+
+[Containments][2][Applets][5][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
 groupingStrategy=0
@@ -116,7 +108,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -124,7 +116,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=4
+PreloadWeight=0
 
 [Containments][2][ConfigDialog]
 DialogHeight=76
@@ -134,9 +126,10 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=31;4;25;29;32;30;6;8
+AppletOrder=19;4;30;20;25;5;6;8
 
 [Containments][27]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -155,12 +148,15 @@ PreloadWeight=0
 [Containments][27][General]
 arrangement=1
 iconSize=3
-positions=1,9,desktop:/calamares.desktop,0,2,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
+labelWidth=2
+positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/calamares.desktop,0,2
+sizeIcon=3
 sortMode=-1
+textLines=3
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/BigLinux01.jpg
+Image=file:///usr/share/wallpapers/praia9.jpg
 
 [Containments][7]
 activityId=
@@ -284,14 +280,15 @@ plugin=org.kde.discovernotifier
 PreloadWeight=0
 
 [Containments][7][ConfigDialog]
-DialogHeight=540
+DialogHeight=840
 DialogWidth=720
 
 [Containments][7][Configuration]
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kscreen
+extraItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.redshiftControl
+hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
 shownItems=qBittorrent
 
@@ -300,4 +297,4 @@ immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,desktop:/calamares.desktop,0,desktop:/trash.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/calamares.desktop,0

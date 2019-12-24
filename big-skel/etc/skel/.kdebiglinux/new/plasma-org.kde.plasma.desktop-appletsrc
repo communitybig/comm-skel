@@ -35,7 +35,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][19][Configuration][General]
 appNameFormat=3
-customButtonImage=/usr/share/pixmaps/biglinux.png
+customButtonImage=/usr/share/pixmaps/biglinux-launcher5.svg
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
@@ -86,7 +86,7 @@ DialogWidth=800
 
 [Containments][2][Applets][31][Configuration][General]
 appNameFormat=3
-customButtonImage=/usr/share/pixmaps/biglinux2.png
+customButtonImage=/usr/share/pixmaps/biglinux-launcher5.svg
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
@@ -147,9 +147,12 @@ PreloadWeight=0
 
 [Containments][27][General]
 arrangement=1
+iconSize=3
+labelWidth=3
+positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/calamares.desktop,0,2
 sizeIcon=3
-positions=1,9,desktop:/calamares.desktop,0,2,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1
 sortMode=-1
+textLines=3
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
@@ -163,6 +166,30 @@ lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
+
+[Containments][28]
+activityId=
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][28][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/praia9.jpg
+
+[Containments][29]
+activityId=
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][29][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/praia9.jpg
 
 [Containments][7][Applets][10]
 immutability=1

@@ -60,6 +60,8 @@ kwin4_effect_logoutEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_windowapertureEnabled=false
 slidingpopupsEnabled=false
+contrastEnabled=true
+
 
 [TabBox]
 ActivitiesMode=1
