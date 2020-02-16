@@ -2,7 +2,7 @@ ab3c040ef9031e902b1d5dd70e2a7ed9  DEBIAN/dpkg-divert
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
 f475789a8a899078e1c835b4f1e39bcd  DEBIAN/postrm
 8f60914d5e1441da451f6cd40529eabd  DEBIAN/preinst
-3d12072da9fdf444fe1fac9219037807  DEBIAN/control
+4b10a9abffd54cefc169549ac74194cb  DEBIAN/control
 e0ac54d2488bf72442addf48187e6160  etc/skel/.bashrc
 110b5a9ff56caf6f323f0a810e6f96bd  etc/skel/.config/Clementine/Clementine.conf
 3054e47a1b5e0aca03cc31b43cf57ea9  etc/skel/.config/GIMP/2.10/action-history
@@ -93,7 +93,8 @@ d41d8cd98f00b204e9800998ecf8427e  etc/skel/.config/compiz-1/compizconfig/done_up
 d41d8cd98f00b204e9800998ecf8427e  etc/skel/.config/compiz-1/compizconfig/firstrun
 4fb85c6c5b2faf0d50e7fd7c21d0354f  etc/skel/.config/compton.conf
 3a7a94b187ffad34be32d93ef1e321ac  etc/skel/.config/dconf/user
-6e5308b6f97f4b4e987537fe2a259d2e  etc/skel/.config/fontconfig/conf.d/99-zbig.conf
+629ff3819ba4c072d1f6b3d60c62f575  etc/skel/.config/fontconfig/conf.d/99-abig.conf
+920db43fe4a5711de786bf0bf6207832  etc/skel/.config/fontconfig/conf.d/99-zbig.conf
 ca37c717011bebdada56aef45f33de6e  etc/skel/.config/gtk-3.0/settings.ini
 2ae3457d35fb14ee2aa6020383ef5bc7  etc/skel/.config/gtkrc
 d688ea56553df68e0c47b8a383c5aeee  etc/skel/.config/gtkrc-2.0
@@ -106,7 +107,7 @@ f9c93f44f198e13d07fc6ec89008e751  etc/skel/.config/kcm_touchpad.notifyrc
 730fe8a4b76c9417e0cfcf6fd2df6649  etc/skel/.config/kcminputrc
 2e63ff067777bd531f472367d4d69f91  etc/skel/.config/kded5rc
 8af0d478dc92045dfd6aa299f6e911d6  etc/skel/.config/kded_device_automounterrc
-5b0265e578b6a47ca5660b8028d4d8da  etc/skel/.config/kdeglobals
+3581999fb4b824f9e2df0eb85a976b05  etc/skel/.config/kdeglobals
 db7af7ac367b27c31eeea7a8c66d048a  etc/skel/.config/kglobalshortcutsrc
 7334f1aebe556eae2803f49016006002  etc/skel/.config/khotkeysrc
 40b77ffeb051e114980e9d14860a36d4  etc/skel/.config/kiorc
@@ -828,6 +829,7 @@ c5d3afe6ff6907dc1f10c4a4d7e809ad  etc/skel/.config/plasma_workspace.notifyrc
 d872184c3fad283796879211e3ae443e  etc/skel/.config/kwinrc
 5e4b8ef7ab2f0feb6965d05f2da48cf9  etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
 2fa36617b465d3778b83c59db393556e  etc/skel/.config/dolphinrc
+9aab8ba4118fbae1212816bb552c3bbe  etc/skel/.config/kpatrc
 9528b3d532be1c66e04d3f5440494453  etc/skel/.emerald/settings.ini
 a4d7d83514b62d5dbfb00cce7ff26456  etc/skel/.emerald/theme/buttons.close.png
 34d3dc015f68942f9fc11feb04ddcd86  etc/skel/.emerald/theme/buttons.max.png
@@ -850,7 +852,7 @@ fe558818c2dd6dc8580f4b736e62a782  etc/skel/.emerald/themes/QogirLight/buttons.ma
 7f74fd22a0bebbfeeb26e6466a4e7665  etc/skel/.emerald/themes/QogirLight/buttons.restore.png
 0331079115a07eeb5b516a5eff4c1643  etc/skel/.emerald/themes/QogirLight/theme.ini
 f97ed43b34830e1ec64cb55079ecbfa6  etc/skel/.emerald/themes/QogirLight/theme.screenshot.png
-1f931c9eada099e4f2c4ba892708aade  etc/skel/.gtkrc-2.0
+fae9d35b966e8c4734fab0ebcbca4822  etc/skel/.gtkrc-2.0
 c890c5370f01a163134f4804bec9e73b  etc/skel/.kde/share/apps/color-schemes/BigAdapta.colors
 3ff9a47f0007ae0da6f0b0604c73b1d9  etc/skel/.kdebiglinux/classic/plasmarc
 7ae86b5b36cd6b0fdbd3b6144400aa45  etc/skel/.kdebiglinux/classic/plasmashellrc
@@ -905,7 +907,7 @@ badd3a02af384ebfd20109fca6ea1b7c  etc/skel/.local/share/kactivitymanagerd/resour
 2add8b2dacd395632697eb65341f39d7  etc/skel/.local/share/kate/anonymous.katesession
 896fb5b2e1e970d67c0632e7674b3c34  etc/skel/.local/share/konsole/Breeze.colorscheme
 9ef187283c7183bf805dbfdd438635b9  etc/skel/.local/share/konsole/Perfil 1.profile
-9b8c97a965886b62f53d8324cda91e1c  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
+ad56882c8acb1d2864af0f1b8867940b  etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc
 8e648a4f9736492b77cb665da69c68ce  etc/skel/.local/share/kxmlgui5/gwenview/gwenviewui.rc
 29cd5dc42ee3708e83b66ce21679213a  etc/skel/.local/share/kxmlgui5/gwenview/kipiplugin_dropboxui.rc
 713a77d512d56fadd6dce4d259ed5c4d  etc/skel/.local/share/kxmlgui5/gwenview/kipiplugin_facebookui.rc
