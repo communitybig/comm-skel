@@ -1,8 +1,0 @@
-[Core General]
-ObeyDRM=false
-
-[General]
-ttsEngine=
-
-[Main View]
-ShowLeftPanel=false

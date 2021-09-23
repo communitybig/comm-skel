@@ -1,0 +1,78 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum
+
+[1]
+Description=Dolphin
+clientmachine=localhost
+clientmachinematch=0
+noborderrule=2
+placement=Centered
+typerule=2
+types=32
+wmclass=dolphin dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Save and Open Dialog
+clientmachine=localhost
+size=978,656
+sizerule=4
+title=Salvar|Abrir|salvar|abrir|save|Save|open|Open|Arquivo|arquivo|File|file
+titlematch=3
+types=32
+
+[3]
+Description=polkit-kde-authentication-agent-1
+above=true
+aboverule=2
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+title=KDE PolicyKit1
+type=0
+wmclass=polkit-kde-authentication-agent-1 polkit-kde-authentication-agent-1
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=deepin-terminal
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+wmclass=deepin-terminal
+wmclassmatch=1
+
+[5]
+Description=Chromium PIP
+above=true
+aboverule=2
+clientmachine=localhost
+clientmachinematch=0
+title=Picture-in-picture
+titlematch=1
+types=1
+wmclassmatch=1
+
+[6]
+Description=Logout
+clientmachinematch=0
+ignoregeometry=true
+ignoregeometryrule=1
+types=1
+wmclass=ksmserver
+wmclasscomplete=true
+wmclassmatch=2
+
+[7]
+Description=kcmshell5 minimal size
+clientmachinematch=0
+minsize=770,450
+minsizerule=2
+wmclass=kcmshell5 kcmshell5
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=7
