@@ -1,0 +1,3 @@
+[kwin]
+ExposeAll=Launch (C)\tMeta+W\tCtrl+F10,Ctrl+F10\tLaunch (C),Alternar as janelas presentes (todas as áreas de trabalho)
+ShowDesktopGrid=Alt+W\tCtrl+F8,Ctrl+F8,Mostrar a grade de áreas de trabalho virtuais
