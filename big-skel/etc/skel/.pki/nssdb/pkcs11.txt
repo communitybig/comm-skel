@@ -1,5 +1,26 @@
-library=
-name=NSS Internal PKCS #11 Module
-parameters=configdir='sql:/home/biglinux/.pki/nssdb' certPrefix='' keyPrefix='' secmod='secmod.db' flags=optimizeSpace updatedir='' updateCertPrefix='' updateKeyPrefix='' updateid='' updateTokenDescription='' 
-NSS=Flags=internal,critical trustOrder=75 cipherOrder=100 slotParams=(1={slotFlags=[ECC,RSA,DSA,DH,RC2,RC4,DES,RANDOM,SHA1,MD5,MD2,SSL,TLS,AES,Camellia,SEED,SHA256,SHA512] askpw=any timeout=30})
+library=/usr/lib/libeToken.so
+name=eToken
 
+library=/usr/lib/libaetpkss.so
+name=TPkss
+
+library=/usr/lib/libcackey.so
+name=CACToken
+
+library=/usr/lib/libcoolkeypk11.so
+name=Coolkey
+
+library=/usr/lib/libcastle.so.1.0.0
+name=ePass2003
+
+library=/usr/lib/opensc-pkcs11.so
+name=OpenSC
+
+library=/usr/lib/libbeidpkcs11.so
+name=EIDMW
+
+library=/usr/lib/libeTPkcs11.so
+name=TPkcs11
+
+library=/usr/lib/libASEP11.so
+name=Athena
