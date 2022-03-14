@@ -4,6 +4,9 @@ update_info=kscreenlocker.upd:0.1-autolock
 [Daemon]
 Timeout=10
 
+[Greeter][LnF][General]
+showMediaControls=false
+
 [Greeter][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/night.jpg
+Image=/usr/share/sddm/themes/biglinux/2560x1600.jpg 
