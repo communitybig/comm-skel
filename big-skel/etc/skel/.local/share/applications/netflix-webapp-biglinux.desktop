@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=CleverPDF
-Exec=/usr/bin/biglinux-webapp cleverpdf
-Icon=cleverpdf.png
+Name=Netflix
+Exec=biglinux-webapp netflix
+Icon=netflix.png
 Categories=Webapps;
