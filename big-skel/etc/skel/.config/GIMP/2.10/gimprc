@@ -6,58 +6,7 @@
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
-(use-opencl yes)
-(default-image
-    (width 800)
-    (height 450)
-    (unit pixels)
-    (xresolution 72.000000)
-    (yresolution 72.000000)
-    (resolution-unit inches)
-    (image-type rgb)
-    (precision u8-gamma)
-    (color-managed yes)
-    (color-profile NULL)
-    (fill-type background)
-    (comment "Created with GIMP"))
-(undo-levels 10)
-(import-add-alpha yes)
-(import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(default-view
-    (show-menubar yes)
-    (show-statusbar yes)
-    (show-rulers yes)
-    (show-scrollbars yes)
-    (show-selection yes)
-    (show-layer-boundary no)
-    (show-guides yes)
-    (show-grid no)
-    (show-sample-points yes)
-    (snap-to-guides yes)
-    (snap-to-grid no)
-    (snap-to-canvas no)
-    (snap-to-path no)
-    (padding-mode default)
-    (padding-color (color-rgb 1.000000 1.000000 1.000000)))
-(filter-tool-show-color-options yes)
 (theme "System")
 (icon-theme "Color")
-(icon-size small)
-(fill-options
-    (style solid)
-    (antialias yes))
-(stroke-options
-    (style solid)
-    (antialias yes)
-    (method line)
-    (width 6.000000)
-    (unit pixels)
-    (cap-style butt)
-    (join-style miter)
-    (miter-limit 10.000000)
-    (dash-offset 0.000000)
-    (dash-info 0)
-    (emulate-brush-dynamics no))
-
 
 # end of gimprc
