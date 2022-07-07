@@ -17,7 +17,7 @@ user_pref("browser.sessionstore.warnOnQuit", true);
 user_pref("browser.startup.homepage_override.mstone", "90.0");
 user_pref("browser.startup.page", 3);
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"home-button\",\"urlbar-container\",\"zoom-controls\",\"save-to-pocket-button\",\"downloads-button\",\"bookmarks-menu-button\",\"fxa-toolbar-menu-button\",\"_9a41dee2-b924-4161-a971-7fb35c053a4a_-browser-action\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[\"personal-bookmarks\"]},\"seen\":[\"developer-button\",\"save-to-pocket-button\",\"_036a55b4-5e72-4d05-a06c-cba2dfcc134a_-browser-action\",\"_9a41dee2-b924-4161-a971-7fb35c053a4a_-browser-action\"],\"dirtyAreaCache\":[\"nav-bar\",\"toolbar-menubar\",\"TabsToolbar\",\"PersonalToolbar\"],\"currentVersion\":17,\"newElementCount\":10}");
-user_pref("browser.tabs.InTitlebar", 1);
+user_pref("browser.tabs.inTitlebar", 1);
 user_pref("media.eme.enabled", true);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
