@@ -37,6 +37,6 @@ user_pref("mousewheel.system_scroll_override_on_root_content.vertical.factor", 1
 user_pref("toolkit.scrollbox.horizontalScrollDistance", 6);
 user_pref("toolkit.scrollbox.verticalScrollDistance", 2);
 user_pref("browser.startup.upgradeDialog.version", 89);
-user_pref("font.name.monospace.x-western", "Arimo");
+user_pref("font.name.monospace.x-western", "monospace");
 user_pref("font.name.sans-serif.x-western", "Liberation Sans");
 user_pref("font.name.serif.x-western", "Liberation Serif");
