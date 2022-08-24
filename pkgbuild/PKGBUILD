@@ -1,6 +1,6 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
-pkgname=big-skel-git
+pkgname=big-skel
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
