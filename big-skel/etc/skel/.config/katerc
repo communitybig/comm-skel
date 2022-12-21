@@ -23,6 +23,7 @@ Stash new unsaved files=true
 Stash unsaved file changes=false
 Tab Double Click New Document=true
 Tab Middle Click Close Document=true
+Show welcome view for new window=false
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
