@@ -323,3 +323,6 @@ Toggle screen map selection=,Meta+Ctrl+M,Alternar entre todas as telas
 Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Comutar a ferramenta da caneta para relativa/absoluta
 Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Ativar/Desativar a ferramenta de Toque
 _k_friendly_name=Mesa digitalizadora Wacom
+
+[mediacontrol]
+playpausemedia=Media Pause\tMedia Play,Media Play,Reproduzir/Pausar a mídia
