@@ -1,26 +1,36 @@
 [General]
-Allow Tab Scrolling=false
+Allow Tab Scrolling=true
 Close After Last=false
+Close documents with window=true
 Config Revision=10
 Days Meta Infos=30
-Elide Tab Text=false
+Diff Show Style=0
+Elide Tab Text=true
 Expand Tabs=false
+Icon size for left and right sidebar buttons=32
 Last Session=
 Modified Notification=false
+Mouse back button action=0
+Mouse forward button action=0
+Output History Limit=100
 Quickopen List Mode=false
 Recent File List Entry Count=10
 Restore Window Configuration=true
+SDI Mode=false
 Save Meta Infos=true
 Show Full Path in Title=false
 Show Menu Bar=false
 Show Status Bar=true
+Show Symbol In Navigation Bar=true
 Show Tab Bar=true
 Show Tabs Close Button=true
 Show Url Nav Bar=false
 Show output view for message type=1
+Show text for left and right sidebar=false
 Startup Session=manual
 Stash new unsaved files=true
 Stash unsaved file changes=false
+Sync section size with tab positions=false
 Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Show welcome view for new window=false
@@ -112,7 +122,7 @@ Icon Bar=false
 Input Mode=0
 Keyword Completion=true
 Line Modification=false
-Line Numbers=false
+Line Numbers=true
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
 Multiple Cursor Modifier=134217728
@@ -129,6 +139,9 @@ Show Focus Frame Around Editor=true
 Show Folding Icons On Hover Only=true
 Show Line Count=true
 Show Scrollbars=0
+Show Statusbar Input Mode=false
+Show Statusbar Line Column=false
+Show Statusbar Tab Settings=false
 Show Word Count=false
 Smart Copy Cut=false
 Text Drag And Drop=true
@@ -138,6 +151,14 @@ Vi Relative Line Numbers=false
 Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
+
+[Konsole]
+AutoSyncronize=true
+KonsoleEscKeyBehaviour=true
+KonsoleEscKeyExceptions=vi,vim,nvim,git
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
 
 [KTextEditor::Search]
 
@@ -163,35 +184,6 @@ Width 1920=871
 
 [Notification Messages]
 HideMenuBarWarning=false
-
-[Printing][HeaderFooter]
-FooterBackground=211,211,211
-FooterBackgroundEnabled=false
-FooterEnabled=true
-FooterForeground=0,0,0
-FooterFormatCenter=
-FooterFormatLeft=
-FooterFormatRight=%U
-HeaderBackground=211,211,211
-HeaderBackgroundEnabled=false
-HeaderEnabled=true
-HeaderFooterFont=Ubuntu,11,-1,5,50,0,0,0,0,0,Regular
-HeaderForeground=0,0,0
-HeaderFormatCenter=%f
-HeaderFormatLeft=%y
-HeaderFormatRight=%p
-
-[Printing][Layout]
-BackgroundColorEnabled=false
-BoxColor=invalid
-BoxEnabled=false
-BoxMargin=6
-BoxWidth=1
-ColorScheme=Printing
-
-[Printing][Text]
-Legend=false
-LineNumbers=false
 
 [UiSettings]
 ColorScheme=
