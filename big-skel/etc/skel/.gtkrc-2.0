@@ -2,7 +2,7 @@
 # Configs for GTK2 programs 
 
 widget_class "*" style "user-font"
-gtk-font-name="Cabin Regular 12"
+gtk-font-name="Lato Regular 11"
 gtk-theme-name="Arc"
 gtk-icon-theme-name="breeze"
 gtk-fallback-icon-theme="Adwaita"
