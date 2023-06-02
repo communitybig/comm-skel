@@ -1,3 +1,43 @@
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/biglinux/.config/katerc
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/biglinux/.config/katevirc
+
+[Document 2]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/biglinux/.config/katemetainfos
+
+[Document 3]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/biglinux/.local/share/kate/anonymous.katesession
+
 [Kate Plugins]
 cmaketoolsplugin=false
 compilerexplorer=false
@@ -13,7 +53,7 @@ katefilebrowserplugin=false
 katefiletreeplugin=false
 kategdbplugin=false
 kategitblameplugin=false
-katekonsoleplugin=false
+katekonsoleplugin=true
 kateprojectplugin=false
 katereplicodeplugin=false
 katesearchplugin=false
@@ -31,49 +71,110 @@ tabswitcherplugin=false
 textfilterplugin=false
 
 [MainWindow0]
+1872x947 screen: Window-Maximized=true
 Active ViewSpace=0
-Kate-MDI-H-Splitter=0,1920,0
+Kate-MDI-H-Splitter=0,1872,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=
 Kate-MDI-Sidebar-0-LastSize=160
 Kate-MDI-Sidebar-0-SectSizes=0
-Kate-MDI-Sidebar-0-Splitter=407
+Kate-MDI-Sidebar-0-Splitter=805
 Kate-MDI-Sidebar-1-Bar-0-TvList=
 Kate-MDI-Sidebar-1-LastSize=160
 Kate-MDI-Sidebar-1-SectSizes=0
-Kate-MDI-Sidebar-1-Splitter=407
+Kate-MDI-Sidebar-1-Splitter=805
 Kate-MDI-Sidebar-2-Bar-0-TvList=
 Kate-MDI-Sidebar-2-LastSize=160
 Kate-MDI-Sidebar-2-SectSizes=0
-Kate-MDI-Sidebar-2-Splitter=640
-Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics
+Kate-MDI-Sidebar-2-Splitter=1872
+Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_private_plugin_katekonsoleplugin
 Kate-MDI-Sidebar-3-LastSize=160
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=1740
+Kate-MDI-Sidebar-3-Splitter=1692
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-diagnostics-Position=3
 Kate-MDI-ToolView-diagnostics-Show-Button-In-Sidebar=false
 Kate-MDI-ToolView-diagnostics-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
 Kate-MDI-ToolView-output-Position=3
-Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=false
 Kate-MDI-ToolView-output-Visible=false
-Kate-MDI-V-Splitter=0,931,0
+Kate-MDI-V-Splitter=0,805,0
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAIy/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB1AAAAM7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAIy/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [MainWindow0 Settings]
+1872x947 screen: Window-Maximized=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAIy/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB1AAAAM7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAIy/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 WindowState=10
 
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
+Sizes=1872
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/biglinux/.local/share/kate/anonymous.katesession
+Count=4
+Documents=file:///home/biglinux/.config/katerc,file:///home/biglinux/.config/katevirc,file:///home/biglinux/.config/katemetainfos,file:///home/biglinux/.local/share/kate/anonymous.katesession
+View 0=file:///home/biglinux/.config/katerc
+View 1=file:///home/biglinux/.config/katevirc
+View 2=file:///home/biglinux/.config/katemetainfos
+View 3=file:///home/biglinux/.local/share/kate/anonymous.katesession
+
+[MainWindow0-ViewSpace 0 file:///home/biglinux/.config/katemetainfos]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"291826ad445d45b577ae8dc2d18b9b713fa9d94d","ranges":[]}
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/biglinux/.config/katerc]
+CursorColumn=10
+CursorLine=93
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"4464addf0e9b36d7989b44f9c3a85b7bbf123d7f","ranges":[]}
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/biglinux/.config/katevirc]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"cdea46f5f34de64a0b0ef5eee148cdf71ebc4342","ranges":[]}
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/biglinux/.local/share/kate/anonymous.katesession]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"be4ef6188ff0cd8ec57f3abc7bb27c2af33198b4","ranges":[]}
+ViMarks=
 
 [Open Documents]
-Count=1
+Count=4
 
 [Open MainWindows]
 Count=1
+
+[Recent Files]
+File1[$e]=$HOME/.config/libreoffice/4/user/registrymodifications.xcu
+File2[$e]=$HOME/.config/katerc
+File3[$e]=$HOME/.config/kateschemarc
+File4[$e]=$HOME/.config/katevirc
+File5[$e]=$HOME/.config/katemetainfos
+File6[$e]=$HOME/.local/share/kate/anonymous.katesession
+Name1[$e]=registrymodifications.xcu
+Name2[$e]=katerc
+Name3[$e]=kateschemarc
+Name4[$e]=katevirc
+Name5[$e]=katemetainfos
+Name6[$e]=anonymous.katesession
