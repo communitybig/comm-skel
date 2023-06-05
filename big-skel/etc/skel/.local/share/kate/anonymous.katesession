@@ -1,43 +1,3 @@
-[Document 0]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/biglinux/.config/katerc
-
-[Document 1]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/biglinux/.config/katevirc
-
-[Document 2]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/biglinux/.config/katemetainfos
-
-[Document 3]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/biglinux/.local/share/kate/anonymous.katesession
-
 [Kate Plugins]
 cmaketoolsplugin=false
 compilerexplorer=false
@@ -47,7 +7,7 @@ formatplugin=false
 katebacktracebrowserplugin=false
 katebuildplugin=false
 katecloseexceptplugin=false
-katecolorpickerplugin=false
+katecolorpickerplugin=true
 katectagsplugin=false
 katefilebrowserplugin=false
 katefiletreeplugin=false
@@ -118,63 +78,8 @@ Children=MainWindow0-ViewSpace 0
 Orientation=1
 Sizes=1872
 
-[MainWindow0-ViewSpace 0]
-Active View=file:///home/biglinux/.local/share/kate/anonymous.katesession
-Count=4
-Documents=file:///home/biglinux/.config/katerc,file:///home/biglinux/.config/katevirc,file:///home/biglinux/.config/katemetainfos,file:///home/biglinux/.local/share/kate/anonymous.katesession
-View 0=file:///home/biglinux/.config/katerc
-View 1=file:///home/biglinux/.config/katevirc
-View 2=file:///home/biglinux/.config/katemetainfos
-View 3=file:///home/biglinux/.local/share/kate/anonymous.katesession
-
-[MainWindow0-ViewSpace 0 file:///home/biglinux/.config/katemetainfos]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"291826ad445d45b577ae8dc2d18b9b713fa9d94d","ranges":[]}
-ViMarks=
-
-[MainWindow0-ViewSpace 0 file:///home/biglinux/.config/katerc]
-CursorColumn=10
-CursorLine=93
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"4464addf0e9b36d7989b44f9c3a85b7bbf123d7f","ranges":[]}
-ViMarks=
-
-[MainWindow0-ViewSpace 0 file:///home/biglinux/.config/katevirc]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"cdea46f5f34de64a0b0ef5eee148cdf71ebc4342","ranges":[]}
-ViMarks=
-
-[MainWindow0-ViewSpace 0 file:///home/biglinux/.local/share/kate/anonymous.katesession]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"be4ef6188ff0cd8ec57f3abc7bb27c2af33198b4","ranges":[]}
-ViMarks=
-
 [Open Documents]
 Count=4
 
 [Open MainWindows]
 Count=1
-
-[Recent Files]
-File1[$e]=$HOME/.config/libreoffice/4/user/registrymodifications.xcu
-File2[$e]=$HOME/.config/katerc
-File3[$e]=$HOME/.config/kateschemarc
-File4[$e]=$HOME/.config/katevirc
-File5[$e]=$HOME/.config/katemetainfos
-File6[$e]=$HOME/.local/share/kate/anonymous.katesession
-Name1[$e]=registrymodifications.xcu
-Name2[$e]=katerc
-Name3[$e]=kateschemarc
-Name4[$e]=katevirc
-Name5[$e]=katemetainfos
-Name6[$e]=anonymous.katesession
