@@ -1,54 +1,54 @@
+<?xml version='1.0'?>
 <!DOCTYPE gui>
-<gui name="session" version="33" translationDomain="kxmlgui5">
- <MenuBar alreadyVisited="1">
-  <Menu name="file" noMerge="1" alreadyVisited="1">
-   <Action name="file_save_as" group="session-operations"/>
+<gui name="session" version="35">
+ <MenuBar>
+  <Menu name="file" noMerge="1">
+   <Action group="session-operations" name="file_save_as"/>
    <Separator group="session-operations"/>
-   <Action name="file_print" group="session-operations"/>
+   <Action group="session-operations" name="file_print"/>
    <Separator group="session-operations"/>
-   <Action name="open-browser" group="session-operations"/>
-   <Action name="close-session" group="session-tab-operations"/>
+   <Action group="session-operations" name="open-browser"/>
+   <Action group="session-tab-operations" name="close-session"/>
   </Menu>
-  <Menu name="edit" noMerge="1" alreadyVisited="1">
-   <Action name="edit_copy" group="session-edit-operations"/>
-   <Action name="edit_paste" group="session-edit-operations"/>
+  <Menu name="edit" noMerge="1">
+   <Action group="session-edit-operations" name="edit_copy"/>
+   <Action group="session-edit-operations" name="edit_paste"/>
    <Separator group="session-edit-operations"/>
-   <Action name="select-all" group="session-edit-operations"/>
-   <Action name="select-mode" group="session-edit-operations"/>
+   <Action group="session-edit-operations" name="select-all"/>
+   <Action group="session-edit-operations" name="select-mode"/>
    <Separator group="session-edit-operations"/>
-   <Action name="copy-input-to" group="session-edit-operations"/>
-   <Action name="send-signal" group="session-edit-operations"/>
-   <Action name="rename-session" group="session-edit-operations"/>
-   <Action name="zmodem-upload" group="session-edit-operations"/>
+   <Action group="session-edit-operations" name="copy-input-to"/>
+   <Action group="session-edit-operations" name="send-signal"/>
+   <Action group="session-edit-operations" name="rename-session"/>
+   <Action group="session-edit-operations" name="zmodem-upload"/>
    <Separator group="session-edit-operations"/>
-   <Action name="edit_find" group="session-edit-operations"/>
-   <Action name="edit_find_next" group="session-edit-operations"/>
-   <Action name="edit_find_prev" group="session-edit-operations"/>
+   <Action group="session-edit-operations" name="edit_find"/>
+   <Action group="session-edit-operations" name="edit_find_next"/>
+   <Action group="session-edit-operations" name="edit_find_prev"/>
   </Menu>
-  <Menu name="view" noMerge="1" alreadyVisited="1">
-   <Action name="monitor-silence" group="session-view-operations"/>
-   <Action name="monitor-activity" group="session-view-operations"/>
-   <Action name="monitor-process-finish" group="session-view-operations"/>
+  <Menu name="view" noMerge="1">
+   <Action group="session-view-operations" name="monitor-once"/>
+   <Action group="session-view-operations" name="monitor-prompt"/>
+   <Action group="session-view-operations" name="monitor-silence"/>
+   <Action group="session-view-operations" name="monitor-activity"/>
+   <Action group="session-view-operations" name="monitor-process-finish"/>
    <Separator group="session-view-operations"/>
-   <Action name="view-readonly" group="session-view-operations"/>
-   <Action name="allow-mouse-tracking" group="session-view-operations"/>
+   <Action group="session-view-operations" name="view-readonly"/>
+   <Action group="session-view-operations" name="allow-mouse-tracking"/>
    <Separator group="session-view-operations"/>
-   <Action name="enlarge-font" group="session-view-operations"/>
-   <Action name="reset-font-size" group="session-view-operations"/>
-   <Action name="shrink-font" group="session-view-operations"/>
-   <Action name="set-encoding" group="session-view-operations"/>
+   <Action group="session-view-operations" name="enlarge-font"/>
+   <Action group="session-view-operations" name="reset-font-size"/>
+   <Action group="session-view-operations" name="shrink-font"/>
+   <Action group="session-view-operations" name="set-encoding"/>
    <Separator group="session-view-operations"/>
-   <Action name="clear-history" group="session-view-operations"/>
-   <Action name="clear-history-and-reset" group="session-view-operations"/>
+   <Action group="session-view-operations" name="clear-history"/>
+   <Action group="session-view-operations" name="clear-history-and-reset"/>
   </Menu>
-  <Menu name="settings" noMerge="1" alreadyVisited="1">
-   <Action name="edit-current-profile" group="session-settings"/>
-   <Action name="switch-profile" group="session-settings"/>
+  <Menu name="settings" noMerge="1">
+   <Action group="session-settings" name="edit-current-profile"/>
+   <Action group="session-settings" name="switch-profile"/>
   </Menu>
  </MenuBar>
- <ToolBar name="mainToolBar" noMerge="1" alreadyVisited="1">
-  <text translationDomain="kxmlgui5">Main Toolbar</text>
- </ToolBar>
  <Menu name="session-popup-menu" noMerge="1">
   <Action name="edit_copy_contextmenu"/>
   <Action name="edit_copy_contextmenu_in"/>
@@ -75,29 +75,9 @@
   <Action name="edit-current-profile"/>
  </Menu>
  <ToolBar name="sessionToolbar" noMerge="1">
-  <Spacer name="spacer_0"/>
   <text translationDomain="konsole">Session Toolbar</text>
   <index>1</index>
-  <Action name="edit_find"/>
-  <Action name="clear-history-and-reset"/>
-  <Action name="view-readonly"/>
-  <Spacer name="spacer_1"/>
-  <Action name="monitor-silence"/>
-  <Action name="monitor-process-finish"/>
-  <Action name="monitor-activity"/>
-  <Spacer name="spacer_2"/>
-  <Action name="sigterm-signal"/>
+  <Spacer name="spacer_0"/>
+  <Action name="hamburger_menu"/>
  </ToolBar>
- <ActionProperties scheme="Default">
-  <Action name="reset-font-size" icon="font"/>
-  <Action name="enlarge-font" icon="font-size-up"/>
-  <Action name="shrink-font" icon="font-size-down"/>
-  <Action name="sigterm-signal" icon="media-playback-stop-symbolic"/>
-  <Action name="sigstop-signal" icon="kt-pause"/>
-  <Action name="sigcont-signal" icon="player_start"/>
-  <Action name="sigkill-signal" icon="text-vnd.kde.kcrash-report"/>
-  <Action name="monitor-silence" icon="system-suspend"/>
-  <Action name="monitor-process-finish" icon="view-services-scripted-amarok"/>
-  <Action name="monitor-activity" icon="viewlog"/>
- </ActionProperties>
 </gui>
