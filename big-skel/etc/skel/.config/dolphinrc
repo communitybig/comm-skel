@@ -33,8 +33,8 @@ ViewPropsTimestamp=2018,12,13,5,31,1
 
 [IconsMode]
 FontWeight=63
-IconSize=48
-PreviewSize=48
+IconSize=64
+PreviewSize=64
 
 [MainWindow]
 MenuBar=Disabled
