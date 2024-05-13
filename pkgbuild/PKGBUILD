@@ -7,6 +7,7 @@ arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/big-skel"
 pkgdesc="User configuration for BigLinux"
+depends=('noto-nerd-fonts-lite')
 conflicts=('bashrc-manjaro')
 provides=('bashrc')
 source=("git+https://github.com/biglinux/big-skel.git")
