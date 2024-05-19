@@ -1,8 +1,8 @@
 <!DOCTYPE gui>
-<gui version="61" translationDomain="kxmlgui5" name="gwenview">
+<gui name="gwenview" translationDomain="kxmlgui6" version="68">
  <MenuBar alreadyVisited="1">
-  <Menu noMerge="1" alreadyVisited="1" name="file">
-   <text translationDomain="kxmlgui5">&amp;File</text>
+  <Menu alreadyVisited="1" name="file" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;File</text>
    <Action name="file_open"/>
    <Action name="file_open_recent"/>
    <Separator weakSeparator="1"/>
@@ -10,12 +10,14 @@
    <Action name="file_save_as"/>
    <Separator weakSeparator="1"/>
    <Action name="file_print"/>
+   <Action name="file_print_preview"/>
    <Separator weakSeparator="1"/>
    <Action name="file_save"/>
    <Action name="file_save_as"/>
    <Separator/>
    <Action name="reload"/>
    <Action name="file_print"/>
+   <Action name="file_print_preview"/>
    <Separator/>
    <ActionList name="file_action_list"/>
    <Separator/>
@@ -25,8 +27,8 @@
    <Separator weakSeparator="1"/>
    <Action name="file_quit"/>
   </Menu>
-  <Menu noMerge="1" alreadyVisited="1" name="edit">
-   <text translationDomain="kxmlgui5">&amp;Edit</text>
+  <Menu alreadyVisited="1" name="edit" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Edit</text>
    <Action name="edit_undo"/>
    <Action name="edit_redo"/>
    <Separator weakSeparator="1"/>
@@ -42,7 +44,7 @@
    <Action name="edit_paste"/>
    <Separator/>
    <Action name="edit_tags"/>
-   <Menu noMerge="1" name="rating">
+   <Menu name="rating" noMerge="1">
     <text translationDomain="gwenview">&amp;Rating</text>
     <Action name="rate_0"/>
     <Action name="rate_1"/>
@@ -59,10 +61,12 @@
    <Separator/>
    <Action name="resize"/>
    <Action name="crop"/>
+   <Action name="brightness_contrast_gamma"/>
    <Action name="red_eye_reduction"/>
+   <Action name="annotate"/>
   </Menu>
-  <Menu noMerge="1" alreadyVisited="1" name="view">
-   <text translationDomain="kxmlgui5">&amp;View</text>
+  <Menu alreadyVisited="1" name="view" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;View</text>
    <Action name="view_actual_size"/>
    <Separator weakSeparator="1"/>
    <Action name="view_zoom_in"/>
@@ -81,6 +85,11 @@
    <Action name="view_zoom_out"/>
    <Action name="view_toggle_birdeyeview"/>
    <Separator/>
+   <Action name="view_background_colormode_auto"/>
+   <Action name="view_background_colormode_light"/>
+   <Action name="view_background_colormode_neutral"/>
+   <Action name="view_background_colormode_dark"/>
+   <Separator/>
    <Action name="sort_by"/>
    <Action name="thumbnail_details"/>
    <Separator/>
@@ -88,8 +97,8 @@
    <Separator weakSeparator="1"/>
    <Action name="fullscreen"/>
   </Menu>
-  <Menu noMerge="1" alreadyVisited="1" name="go">
-   <text translationDomain="kxmlgui5">&amp;Go</text>
+  <Menu alreadyVisited="1" name="go" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Go</text>
    <Action name="go_up"/>
    <Separator weakSeparator="1"/>
    <Action name="go_previous"/>
@@ -107,43 +116,24 @@
    <Separator/>
    <Action name="go_start_page"/>
   </Menu>
-  <Menu noMerge="1" name="plugins">
-   <text translationDomain="gwenview">&amp;Plugins</text>
-  </Menu>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Menu noMerge="1" alreadyVisited="1" name="settings">
-   <text translationDomain="gwenview">&amp;Settings</text>
-   <!--
-        Disable merging because we do not want the "fullscreen" action to appear
-        here, since it is already in the "view" menu.
-        -->
+  <Menu name="settings" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Settings</text>
    <Action name="options_show_menubar"/>
    <Merge name="StandardToolBarMenuHandler"/>
+   <Merge name="KMDIViewActions"/>
    <Action name="options_show_statusbar"/>
-   <Separator/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
    <Action name="options_configure_keybinding"/>
    <Action name="options_configure_toolbars"/>
    <Action name="options_configure"/>
   </Menu>
   <Separator weakSeparator="1"/>
-  <Menu noMerge="1" alreadyVisited="1" name="help">
-   <text translationDomain="kxmlgui5">&amp;Help</text>
+  <Menu name="help" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Help</text>
    <Action name="help_contents"/>
    <Action name="help_whats_this"/>
+   <Action name="open_kcommand_bar"/>
    <Separator weakSeparator="1"/>
    <Action name="help_report_bug"/>
    <Separator weakSeparator="1"/>
@@ -153,7 +143,7 @@
    <Action name="help_about_kde"/>
   </Menu>
  </MenuBar>
- <ToolBar noMerge="1" alreadyVisited="1" name="mainToolBar">
+ <ToolBar alreadyVisited="1" name="mainToolBar" noMerge="1">
   <Action name="options_show_menubar"/>
   <text translationDomain="gwenview">Main Toolbar</text>
   <Separator name="separator_0"/>
@@ -166,8 +156,8 @@
   <Action name="crop"/>
   <Action name="red_eye_reduction"/>
   <Separator name="separator_2"/>
-  <Action name="fullscreen"/>
   <Action name="toggle_slideshow"/>
+  <Action name="fullscreen"/>
   <Separator name="separator_3"/>
   <Action name="file_print"/>
   <Action name="file_copy_to"/>
@@ -178,10 +168,11 @@
   <Spacer name="spacer_0"/>
   <Action name="file_trash"/>
  </ToolBar>
- <ActionProperties>
-  <Action priority="128" name="go_next"/>
-  <Action priority="128" name="go_previous"/>
-  <Action priority="0" name="red_eye_reduction"/>
-  <Action priority="0" name="toggle_slideshow"/>
+ <ActionProperties scheme="Default">
+  <Action name="fullscreen" priority="128"/>
+  <Action name="go_next" priority="128"/>
+  <Action name="go_previous" priority="128"/>
+  <Action name="red_eye_reduction" priority="0"/>
+  <Action name="toggle_slideshow" priority="0"/>
  </ActionProperties>
 </gui>
