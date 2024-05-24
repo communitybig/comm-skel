@@ -170,4 +170,5 @@ RunPrefix=
 SetEditor=false
 
 [Notification Messages]
+Backup Failed Warning=false
 HideMenuBarWarning=false
