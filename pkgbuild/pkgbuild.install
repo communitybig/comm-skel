@@ -1,0 +1,35 @@
+#pre_install() {
+	# do something here
+#}
+
+post_install() {
+  # Replacing the original /etc/skel/.bashrc file with the modified Biglinux file
+  if [ -e "/etc/skel/.dot.bashrc" ]; then
+    if [ -e "/etc/skel/.bashrc" ]; then
+      mv -f "/etc/skel/.dot.bashrc" "/etc/skel/.bashrc.bak"
+    fi
+    mv -f "/etc/skel/.dot.bashrc" "/etc/skel/.bashrc"
+  fi
+}
+
+#pre_upgrade() {
+	# do something here
+#}
+
+post_upgrade() {
+  post_install
+}
+
+# pre_remove() {
+	# do something here
+# }
+
+post_remove() {
+cFile='/etc/skel/.bashrc'
+cbakFile='/etc/skel/.bashrc.bak'
+cnewFile='/etc/skel/.dot.bashrc'
+
+if [ -e "/etc/skel/.bashrc.bak" ];then
+  mv -f "/etc/skel/.bashrc.bak" "/etc/skel/.bashrc"
+fi
+}
