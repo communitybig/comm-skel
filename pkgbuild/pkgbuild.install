@@ -16,7 +16,7 @@
 ## arg 2:  the old package version
 post_upgrade() {
 	if [ -e /etc/skel/.dot.bashrc ];then
-		echo xpto
+		echo xpto1
 	fi
 }
 
