@@ -14,9 +14,11 @@
 #}
 
 ## arg 2:  the old package version
-#post_upgrade() {
-	#post_install
-#}
+post_upgrade() {
+	if [ -e /etc/skel/.dot.bashrc ];then
+		echo xpto
+	fi
+}
 
 ## arg 1:  the old package version
 #pre_remove() {
