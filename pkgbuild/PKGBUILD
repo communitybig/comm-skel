@@ -12,11 +12,6 @@ conflicts=('bashrc-manjaro')
 provides=('bashrc')
 source=("git+https://github.com/biglinux/big-skel.git")
 md5sums=(SKIP)
-if [ -e "${pkgname}.install" ];then
-    install=${pkgname}.install
-elif [ -e "pkgbuild.install" ];then
-    install=pkgbuild.install
-fi
 
 package() {
     # Verify default folder
