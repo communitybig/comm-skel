@@ -1,6 +1,6 @@
 post_install() {
   # Replacing the original /etc/skel/.bashrc file with the modified Biglinux file
-  if [ -f /etc/skel/.dot.bashrc ]; then
+  if [[ -e "/etc/skel/.dot.bashrc" ]]; then
     mv -f /etc/skel/.dot.bashrc /etc/skel/.bashrc
   fi
 }
