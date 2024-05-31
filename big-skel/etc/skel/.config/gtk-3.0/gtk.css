@@ -6,9 +6,9 @@
     Youtube : https://youtube.com/c/linuxscoop
     Website : https://linuxscoop.com
 */
-#pulseaudio-button image { -gtk-icon-transform: scale(0.60); }
-#xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.60);}
-#xfce4-notification-plugin image {-gtk-icon-transform: scale(0.60);}
+#pulseaudio-button image { -gtk-icon-transform: scale(0.55); }
+#xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.55);}
+#xfce4-notification-plugin image {-gtk-icon-transform: scale(0.55);}
 
 .xfce4-panel.panel {
   background-color:#32343D; /*color xfce panel*/
@@ -72,10 +72,9 @@ Whisker Menu
 #whiskermenu-window * {
   border: 0px rgba(50, 52, 61, 0.95) solid; /*All border*/
   outline: none;
-  overflow: auto;
 }
 #whiskermenu-window {
-  background-color: rgba(50, 52, 61, 0.8) ; /*All window*/
+  background-color: rgba(50, 52, 61, 0.95) ; /*All window*/
   color: #e6ebef; /*Text color ex:username*/
 border-radius: 10px 10px 0px 0px;
 }
