@@ -1,21 +1,21 @@
 <?xml version='1.0'?>
 <!DOCTYPE gui>
-<gui version="48" name="okular_part">
+<gui name="okular_part" version="54">
  <MenuBar>
   <Menu name="file" noMerge="1">
    <text translationDomain="okular">&amp;File</text>
-   <Action name="get_new_stuff" group="file_open"/>
-   <Action name="import_ps" group="file_open"/>
-   <Action name="file_save" group="file_save"/>
-   <Action name="file_save_as" group="file_save"/>
-   <Action name="file_reload" group="file_save"/>
-   <Action name="file_print" group="file_print"/>
-   <Action name="file_print_preview" group="file_print"/>
-   <Action name="open_containing_folder" group="file_print"/>
-   <Action name="properties" group="file_print"/>
-   <Action name="embedded_files" group="file_print"/>
-   <Action name="file_export_as" group="file_print"/>
-   <Action name="file_share" group="file_print"/>
+   <Action group="file_open" name="get_new_stuff"/>
+   <Action group="file_open" name="import_ps"/>
+   <Action group="file_save" name="file_save"/>
+   <Action group="file_save" name="file_save_as"/>
+   <Action group="file_save" name="file_reload"/>
+   <Action group="file_print" name="file_print"/>
+   <Action group="file_print" name="file_print_preview"/>
+   <Action group="file_print" name="open_containing_folder"/>
+   <Action group="file_print" name="properties"/>
+   <Action group="file_print" name="embedded_files"/>
+   <Action group="file_print" name="file_export_as"/>
+   <Action group="file_print" name="file_share"/>
   </Menu>
   <Menu name="edit" noMerge="1">
    <text translationDomain="okular">&amp;Edit</text>
@@ -35,8 +35,8 @@
    <text translationDomain="okular">&amp;View</text>
    <Action name="presentation"/>
    <Separator/>
-   <Action name="view_zoom_in"/>
    <Action name="view_zoom_out"/>
+   <Action name="view_zoom_in"/>
    <Action name="view_actual_size"/>
    <Action name="view_fit_to_width"/>
    <Action name="view_fit_to_page"/>
@@ -96,33 +96,17 @@
   </Menu>
   <Menu name="settings" noMerge="1">
    <text translationDomain="okular">&amp;Settings</text>
-   <Action name="show_leftpanel" group="show_merge"/>
-   <Action name="show_bottombar" group="show_merge"/>
-   <Action name="options_configure_generators" group="configure_merge"/>
-   <Action name="options_configure" group="configure_merge"/>
+   <Action group="show_merge" name="colorscheme_menu"/>
+   <Action group="show_merge" name="show_leftpanel"/>
+   <Action group="show_merge" name="show_bottombar"/>
+   <Action group="configure_merge" name="options_configure_generators"/>
+   <Action group="configure_merge" name="options_configure"/>
   </Menu>
   <Menu name="help" noMerge="1">
    <text translationDomain="okular">&amp;Help</text>
-   <Action name="help_about_backend" group="about_merge"/>
+   <Action group="about_merge" name="help_about_backend"/>
   </Menu>
  </MenuBar>
- <ToolBar iconText="icononly" hidden="true" name="annotationToolBar" noMerge="1" newline="true">
-  <Action name="edit_undo"/>
-  <Action name="edit_redo"/>
-  <text translationDomain="okular">Annotation Toolbar</text>
-  <Action name="annotation_highlighter"/>
-  <Action name="annotation_underline"/>
-  <Action name="annotation_squiggle"/>
-  <Action name="annotation_strike_out"/>
-  <Action name="annotation_typewriter"/>
-  <Action name="annotation_inline_note"/>
-  <Action name="annotation_popup_note"/>
-  <Action name="annotation_freehand_line"/>
-  <Action name="annotation_geometrical_shape"/>
-  <Action name="annotation_stamp"/>
-  <Separator name="separator_0"/>
-  <Action name="annotation_settings_advanced"/>
- </ToolBar>
  <ToolBar name="mainToolBar" noMerge="1">
   <text translationDomain="okular">Main Toolbar</text>
   <Action name="show_leftpanel"/>
@@ -138,12 +122,37 @@
   <Action name="mouse_drag"/>
   <Action name="mouse_toggle_annotate"/>
  </ToolBar>
- <ActionProperties>
-  <Action name="toggle_change_colors" priority="0" icon="invertimage"/>
-  <Action name="presentation" priority="0"/>
-  <Action name="mouse_toggle_annotate" priority="0"/>
-  <Action name="show_leftpanel" priority="0"/>
-  <Action name="view_orientation_rotate_cw" priority="0"/>
+ <ToolBar hidden="true" iconText="icononly" name="annotationToolBar" newline="true" noMerge="1">
+  <Action name="edit_undo"/>
+  <Action name="edit_redo"/>
+  <text translationDomain="okular">Annotation Toolbar</text>
+  <Action name="annotation_highlighter"/>
+  <Action name="annotation_underline"/>
+  <Action name="annotation_squiggle"/>
+  <Action name="annotation_strike_out"/>
+  <Action name="annotation_typewriter"/>
+  <Action name="annotation_inline_note"/>
+  <Action name="annotation_popup_note"/>
+  <Action name="annotation_freehand_line"/>
+  <Action name="annotation_geometrical_shape"/>
+  <Action name="annotation_stamp"/>
+  <Action name="color_mode_paper"/>
+  <Action name="color_mode_recolor"/>
+  <Separator name="separator_0"/>
+  <Action name="annotation_settings_advanced"/>
+ </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action name="view_zoom_out" priority="0"/>
+  <Action name="view_zoom_in" priority="0"/>
   <Action name="file_save" priority="0"/>
+  <Action name="mouse_toggle_annotate" priority="0"/>
+  <Action name="presentation" priority="0"/>
+  <Action name="show_leftpanel" priority="0"/>
+  <Action icon="invertimage" name="toggle_change_colors" priority="0"/>
+  <Action name="view_orientation_rotate_cw" priority="0"/>
  </ActionProperties>
+ <ToolBar hidden="true" iconSize="32" iconText="icononly" name="quickAnnotationToolBar" newline="true" position="right">
+  <text translationDomain="okular">Quick Annotation Toolbar</text>
+  <Action name="quick_annotation_action_bar"/>
+ </ToolBar>
 </gui>
