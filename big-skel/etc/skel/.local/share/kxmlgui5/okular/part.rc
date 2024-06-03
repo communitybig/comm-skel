@@ -136,7 +136,7 @@
   <Action name="annotation_freehand_line"/>
   <Action name="annotation_geometrical_shape"/>
   <Action name="annotation_stamp"/>
-  <Action name="color_mode_paper"/>
+  <Action name="color_mode_inverted"/>
   <Action name="color_mode_recolor"/>
   <Separator name="separator_0"/>
   <Action name="annotation_settings_advanced"/>
