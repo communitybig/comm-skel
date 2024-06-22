@@ -162,7 +162,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [Konsole]
-AutoSyncronize=true
+AutoSyncronize=1
 KonsoleEscKeyBehaviour=false
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
