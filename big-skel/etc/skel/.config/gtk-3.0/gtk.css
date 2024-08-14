@@ -4,6 +4,7 @@
 #pulseaudio-button image { -gtk-icon-transform: scale(0.50); }
 #xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.50);}
 #xfce4-notification-plugin image {-gtk-icon-transform: scale(0.50);}
+#xfce4-clipman-plugin image { -gtk-icon-transform: scale(0.50); }
 
 /* Whisker Menu */
 #whiskermenu-window * {
