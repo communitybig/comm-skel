@@ -1,10 +1,15 @@
 @import 'colors.css';
 
 /* Configuration icons tray XFCE */
-#pulseaudio-button image { -gtk-icon-transform: scale(0.50); }
-#xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.50);}
-#xfce4-notification-plugin image {-gtk-icon-transform: scale(0.50);}
-#xfce4-clipman-plugin image { -gtk-icon-transform: scale(0.50); }
+#pulseaudio-button image { -gtk-icon-transform: scale(0.60); }
+#xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.60);}
+#xfce4-notification-plugin image {-gtk-icon-transform: scale(0.60);}
+#xfce4-clipman-plugin image { -gtk-icon-transform: scale(0.60); }
+#pulseaudio-button image { -gtk-icon-transform: scale(0.60); }
+#xfce4-notification-plugin image { -gtk-icon-transform: scale(0.60); }
+#xfce4-power-manager-plugin image { -gtk-icon-transform: scale(0.60); }
+#xfce-panel-toggle-button image { -gtk-icon-transform: scale(0.60); }
+
 
 /* Whisker Menu */
 #whiskermenu-window * {
