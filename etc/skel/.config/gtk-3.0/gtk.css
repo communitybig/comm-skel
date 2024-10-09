@@ -1,14 +1,15 @@
 @import 'colors.css';
 
+.xfce4-panel {
+  background-color: rgba(30,30,30,0.8);
+  border: none;
+}
+
 /* Configuration icons tray XFCE */
-#pulseaudio-button image { -gtk-icon-transform: scale(0.60); }
-#xfce4-power-manager-plugin image {-gtk-icon-transform: scale(0.60);}
-#xfce4-notification-plugin image {-gtk-icon-transform: scale(0.60);}
-#xfce4-clipman-plugin image { -gtk-icon-transform: scale(0.60); }
-#pulseaudio-button image { -gtk-icon-transform: scale(0.60); }
-#xfce4-notification-plugin image { -gtk-icon-transform: scale(0.60); }
-#xfce4-power-manager-plugin image { -gtk-icon-transform: scale(0.60); }
-#xfce-panel-toggle-button image { -gtk-icon-transform: scale(0.60); }
+ #xfce4-notification-plugin *, #xfce4-power-manager-plugin *, #pulseaudio-button *, #indicator-button *, #sn-button *, #showdesktop-button *, #xfce4-clipman-plugin * {
+ -gtk-icon-transform: scale(0.60);
+  color: #afafaf;
+}
 
 /* Configuration Calendar XFCE */
 calendar {
@@ -22,13 +23,12 @@ outline: none;
 #whiskermenu-window * {
   border: 0px;
   outline: none;
-  overflow: auto;
   font-weight: normal;
   text-shadow: none;
 }
 
 #whiskermenu-window {
-  background-color: rgba(50, 50, 50, 0.95);
+  background-color: rgba(30,30,30,0.9);
   border-radius: 15px 15px 0px 0px;
 }
 
