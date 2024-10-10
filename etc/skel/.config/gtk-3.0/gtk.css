@@ -75,4 +75,20 @@ padding-top: 2px;
 padding-bottom: 2px;
 }
 
-.thunar > grid > toolbar * { -gtk-icon-transform: scale(0.7); }
+/* Remove borders from all elements inside Thunar */
+.thunar * {
+    border: none;
+}
+
+/* Scale down icons in the Thunar toolbar */
+.thunar > grid > toolbar * {
+    -gtk-icon-transform: scale(0.7);
+}
+
+/* Set spacing for icon view in Thunar */
+* {
+    /* Set row spacing in icon view */
+    -ThunarAbstractIconView-row-spacing: 15;
+    /* Set column spacing in icon view */
+    -ThunarAbstractIconView-column-spacing: 50;
+}
