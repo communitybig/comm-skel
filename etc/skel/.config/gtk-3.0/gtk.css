@@ -75,6 +75,7 @@ padding-top: 2px;
 padding-bottom: 2px;
 }
 
+
 /* Remove borders from all elements inside Thunar */
 .thunar * {
     border: none;
@@ -91,4 +92,35 @@ padding-bottom: 2px;
     -ThunarAbstractIconView-row-spacing: 15;
     /* Set column spacing in icon view */
     -ThunarAbstractIconView-column-spacing: 50;
+}
+
+
+/* Logout Screen XFCE */
+.xfsm-logout-dialog {
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 50px;
+    padding: 0px;
+}
+
+.xfsm-logout-dialog .text-button {
+    background: no-repeat border-box;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.xfsm-logout-buttons button {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.xfsm-logout-buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 10px;
 }
