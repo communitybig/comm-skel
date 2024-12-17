@@ -1,27 +1,35 @@
-[global_config]                                                                                                                                                                                
-  enabled_plugins = ActivityWatch, InsertTermName, TerminalShot, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
+[global_config]                                                                                                                                                                               
+  sticky = True
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
 [keybindings]
+  go_up = <Primary>Up
+  go_down = <Primary>Down
+  go_left = <Primary>Left
+  go_right = <Primary>Right
+  split_horiz = <Primary>h
+  split_vert = <Primary>v
+  close_term = <Primary><Shift>BackSpace
+  close_window = <Primary><Shift>q
+  hide_window = F12
+  next_tab = <Primary>Tab
+  prev_tab = <Primary><Shift>Tab
 [profiles]
   [[default]]
     background_darkness = 0.9
     background_type = transparent
+    background_image = None
     font = Noto Mono Nerd Font Medium 12
     show_titlebar = False
-    scrollbar_position = hidden
-    scroll_on_keystroke = False
-    scrollback_infinite = True
-    palette = "#1f2229:#d41919:#5ebdab:#fea44c:#367bf0:#9755b3:#49aee6:#e6e6e6:#198388:#ec0101:#47d4b9:#ff8a18:#277fff:#962ac3:#05a1f7:#ffffff"
+    palette = "#2e3d51:#b9362b:#3bb15a:#ec9f14:#3e7dbb:#8d35b0:#34a284:#bec3c7:#2c3b4d:#df483c:#36a252:#ebc80a:#4b92db:#964ab6:#3ebe99:#ecf0f1"
     use_system_font = False
     use_theme_colors = True
     copy_on_selection = True
 [layouts]
   [[default]]
-    [[[window0]]]
-      type = Window
+    [[[child0]]]
+      order = 0
       parent = ""
+      position = 0:24
       size = 1300, 400
-    [[[child1]]]
-      type = Terminal
-      parent = window0
-      profile = default
+      type = Window
 [plugins]
