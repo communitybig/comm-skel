@@ -144,16 +144,16 @@
             ],
             "speechServerFactory": "orca.speechdispatcherfactory",
             "speechServerInfo": [
-                "piper",
-                "piper"
+                "rhvoice",
+                "rhvoice"
             ],
             "voices": {
                 "default": {
                     "established": true,
                     "family": {
-                        "name": "pt_BR-faber",
+                        "name": "Let\u00edcia-F123",
                         "lang": "pt",
-                        "dialect": "BR",
+                        "dialect": "",
                         "variant": "none"
                     },
                     "rate": 100.0,
