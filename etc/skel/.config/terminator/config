@@ -7,12 +7,13 @@
   go_left = <Primary>Left
   go_right = <Primary>Right
   split_horiz = <Primary>h
-  split_vert = <Primary>v
+  split_vert = <Primary>s
   close_term = <Primary><Shift>BackSpace
   close_window = <Primary><Shift>q
   hide_window = F12
   next_tab = <Primary>Tab
   prev_tab = <Primary><Shift>Tab
+  paste = <Shift>Insert
 [profiles]
   [[default]]
     background_darkness = 0.9
