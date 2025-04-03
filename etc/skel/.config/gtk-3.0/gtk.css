@@ -81,10 +81,10 @@ padding-bottom: 2px;
     border: none;
 }
 
-/* Scale down icons in the Thunar toolbar */
+/* Scale down icons in the Thunar toolbar
 .thunar > grid > toolbar * {
-    -gtk-icon-transform: scale(0.7);
-}
+    -gtk-icon-transform: scale(0.9);
+} */
 
 /* Set spacing for icon view in Thunar */
 * {
